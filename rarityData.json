@@ -1,0 +1,20 @@
+var rarityDataJson = {
+  "rarities" : [
+    {
+      "rarity" : 0,
+      "text" : "Common"
+    },
+    {
+      "rarity" : 1,
+      "text" : "Rare"
+    },
+    {
+      "rarity" : 2,
+      "text" : "Epic"
+    },
+    {
+      "rarity" : 3,
+      "text" : "Legendary"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+var typeDataJson = {
+  "types" : [
+    {
+      "type" : 0,
+      "text" : "Axe"
+    },
+    {
+      "type" : 1,
+      "text" : "Sword"
+    },
+    {
+      "type" : 2,
+      "text" : "Wand"
+    },
+    {
+      "type" : 3,
+      "text" : "Bow"
+    },
+    {
+      "type" : 4,
+      "text" : "Shield"
+    },
+    {
+      "type" : 5,
+      "text" : "Cape"
+    },
+    {
+      "type" : 6,
+      "text" : "Helm"
+    },
+    {
+      "type" : 7,
+      "text" : "Glove"
+    },
+    {
+      "type" : 8,
+      "text" : "Relic"
+    },
+    {
+      "type" : 9,
+      "text" : "Dagger"
+    },
+    {
+      "type" : 10,
+      "text" : "Claw"
+    },
+    {
+      "type" : 11,
+      "text" : "Arrow"
+    },
+    {
+      "type" : 12,
+      "text" : "Ring"
+    },
+    {
+      "type" : 13,
+      "text" : "Amulet"
+    },
+    {
+      "type" : 14,
+      "text" : "Staff"
+    },
+    {
+      "type" : 15,
+      "text" : "Hammer"
+    },
+    {
+      "type" : 16,
+      "text" : "Belt"
+    },
+    {
+      "type" : 17,
+      "text" : "Boot"
+    },
+    {
+      "type" : 18,
+      "text" : "Relic"
+    },
+    {
+      "type" : 19,
+      "text" : "Armour"
+    },
+    {
+      "type" : 20,
+      "text" : "Scroll"
+    },
+  ]
+}

@@ -1,0 +1,16 @@
+var slotTypeDataJson = {
+  "slotTypes" : [
+    {
+      "slotType" : 0,
+      "text" : "Weapon"
+    },
+    {
+      "slotType" : 1,
+      "text" : "Armour"
+    },
+    {
+      "slotType" : 2,
+      "text" : "Trinket"
+    }
+  ]
+}

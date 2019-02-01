@@ -1,0 +1,149 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+  user-select: none;
+}
+h1{
+  font-family:monospace;
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom: 0;
+  font-variant: small-caps;
+  font-size: 30px;
+  line-height: 50px;
+}
+button{
+  border-radius: 8px;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: gray;
+  border: solid white;
+}
+.tooltip{
+  display: block;
+  visibility: hidden;
+  background-color: white;
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  margin-top: 50px;
+  margin-left: -100px;
+  padding: 0;
+  text-align: left;
+  font-weight:550;
+  font-family: monospace;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 8px;
+  line-height: 12px;
+  min-width: 250px;
+  transition-duration: 0.3s;
+  transition-delay: 0.1s
+}
+.item:hover .tooltip{
+  visibility: visible;
+  opacity: 0.85;
+}
+.item{
+  border: 2px solid rgb(75,75,75);
+  border-radius: 6px;
+  display: inline-block;
+  margin: 1px 8px 0px 8px;
+  padding: 0px;
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+.extraInfoTooltip{
+  height: 17px;
+  font-size: 12px;
+  color: black;
+  overflow: hidden;
+}
+.extraInfoTooltip:hover{
+  height: auto;
+}
+.itemName{
+  font-size: 24px;
+  color: black;
+  white-space: nowrap;
+  line-height: 20px;
+  text-align: center;
+}
+.itemLevel{
+
+}
+.itemTags{
+  font-size: 10px;
+  color: brown;
+  text-align: center;
+}
+.itemAffix{
+  font-size: 16px;
+  color: black;
+  white-space: nowrap;
+  line-height: 16px;
+}
+.perfectQualSpan{
+  color: rgb(230,180,20);
+  font-size: 12px;
+}
+.madnessQualSpan{
+  color: rgb(150,20,20);
+  font-size: 12px;
+}
+.Common{
+  color: green;
+}
+.Rare{
+  color: blue;
+}
+.Epic{
+  color: purple;
+}
+.Legendary{
+  color: rgb(255,150,0);
+}
+.itemBoss{
+
+}
+.itemDropChance{
+
+}
+.Normal{
+  color: rgb(255,180,0);
+}
+.Brutal{
+  color: rgb(255,90,0);
+}
+.Insane{
+  color: rgb(255,0,0);
+}
+.Immortal{
+  color: rgb(200,0,200);
+}
+.divine{
+  color: rgb(0,100,255);
+}
+.chaotic{
+  color: rgb(255,0,200);
+}
+.ultraRare{
+  color: rgb(0,150,150);
+}
+.slot{
+  font-size: 16px;
+  line-height: 16px;
+}
+.mutations{
+  height: 28px;
+  color: rgb(100,0,0);
+}
+.mutations:hover{
+  height: auto;
+}
+.mutationsHead{
+  font-size: 16px;
+  line-height: 16px;
+}
