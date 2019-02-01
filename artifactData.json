@@ -5874,4 +5874,574 @@ var artifactDataJson = {
 		},
 		{
 			"ArtifactName": "Supernova",
-			"Key": "SUPERNOVA
+			"Key": "SUPERNOVA",
+			"ItemId": 203,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 65,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 380,
+					"max": 425
+				},
+				{
+					"attributeType": 201,
+					"min": 14,
+					"max": 15
+				},
+				{
+					"attributeType": 198,
+					"min": 11,
+					"max": 12
+				},
+				{
+					"attributeType": 208,
+					"min": 20,
+					"max": 22
+				}
+			],
+			"Boss": "Zix",
+			"BossDifficulty": "Immortal"
+		},
+
+
+		{
+			"ArtifactName": "Anguish",
+			"Key": "ANGUISH_DIVINE",
+			"artifactVFXSpawnType": [1],
+			"ItemId": 204,
+			"isDivine": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 65,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [11, 12, 13, 14, 15, 16, 17, 53, 58],
+			"Description": [{
+					"attributeType": 114,
+					"min": 1100,
+					"max": 1200
+				},
+				{
+					"attributeType": 117,
+					"min": 580,
+					"max": 590
+				},
+				{
+					"attributeType": 164,
+					"min": 5,
+					"max": 7
+				},
+				{
+					"attributeType": 167,
+					"min": 5,
+					"max": 7
+				}
+			],
+			"Boss": "Gorl",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Frozen Hell",
+			"Key": "FROZEN_HELL",
+			"ItemId": 205,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 7,
+			"MutationPoolType": [6, 8],
+			"HiddenItemLevel": 65,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 320,
+					"max": 340
+				},
+				{
+					"attributeType": 193,
+					"min": 470,
+					"max": 510
+				},
+				{
+					"attributeType": 160,
+					"min": 10,
+					"max": 11
+				},
+				{
+					"attributeType": 170,
+					"min": 13,
+					"max": 14
+				}
+			],
+			"Boss": "Gorl",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Rampage",
+			"Key": "RAMPAGE_DIVINE",
+			"ItemId": 206,
+			"isDivine": true,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 66,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [ 53, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+			"Description": [{
+					"attributeType": 113,
+					"min": 1890,
+					"max": 2030
+				},
+				{
+					"attributeType": 12,
+					"min": 7,
+					"max": 8
+				},
+				{
+					"attributeType": 93,
+					"min": 30,
+					"max": 32
+				}
+			],
+			"Boss": "Gorl",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Pain Duplication",
+			"Key": "REVENGE",
+			"ItemId": 207,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 19,
+			"MutationPoolType": [7],
+			"HiddenItemLevel": 66,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 35,
+					"min": 1120,
+					"max": 1400
+				},
+				{
+					"attributeType": 193,
+					"min": 430,
+					"max": 520
+				}
+			],
+			"Boss": "Gorl",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Starlight",
+			"Key": "STARLIGHT",
+			"ItemId": 208,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 66,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 37,
+					"min": 7,
+					"max": 8
+				},
+				{
+					"attributeType": 38,
+					"min": 35,
+					"max": 37
+				},
+				{
+					"attributeType": 165,
+					"min": 9,
+					"max": 11
+				}
+			],
+			"Boss": "Gorl",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Night's Kiss",
+			"Key": "NIGHTKISS_DIVINE",
+			"ItemId": 209,
+			"isDivine": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 25,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 128,
+					"min": 300,
+					"max": 355
+				},
+				{
+					"attributeType": 132,
+					"min": 110,
+					"max": 125
+				},
+				{
+					"attributeType": 26,
+					"min": 3,
+					"max": 4
+				}
+			],
+			"Boss": "Clara",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Prolonged Pain",
+			"Key": "PROLONGED_PAIN",
+			"ItemId": 210,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 2,
+					"min": 1120,
+					"max": 1400
+				},
+				{
+					"attributeType": 193,
+					"min": 610,
+					"max": 750
+				},
+				{
+					"attributeType": 196,
+					"min": 80,
+					"max": 90
+				},
+				{
+					"attributeType": 209,
+					"min": 4
+				},
+				{
+					"attributeType": 158,
+					"min": -10
+				}
+			],
+			"Boss": "Clara",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Zealous Crusade",
+			"Key": "ZEALOUS_CRUSADE",
+			"ItemId": 211,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [7],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53]
+		},
+		{
+			"ArtifactName": "Sprinter of the Forest",
+			"Key": "SPRINTER_OF_THE_FOREST",
+			"ItemId": 212,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 17,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"Description": [{
+					"attributeType": 193,
+					"min": 425,
+					"max": 530
+				},
+				{
+					"attributeType": 48,
+					"min": 240,
+					"max": 275
+				},
+				{
+					"attributeType": 198,
+					"min": 8,
+					"max": 9
+				},
+				{
+					"attributeType": 172,
+					"min": 10,
+					"max": 11
+				},
+				{
+					"attributeType": 207,
+					"min": 4
+				}
+			],
+			"Boss": "Beezt",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Tempest Fury",
+			"Key": "TEMPEST_FURY",
+			"ItemId": 213,
+			"isUltraRare": true,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.05,
+			"difficulty": 2,
+			"possibleMutationAttributes": [
+				53
+			],
+			"Description": [{
+					"attributeType": 130,
+					"min": 220,
+					"max": 230
+				},
+				{
+					"attributeType": 114,
+					"min": 895,
+					"max": 1070
+				},
+				{
+					"attributeType": 61,
+					"min": 5,
+					"max": 6
+				},
+				{
+					"attributeType": 64,
+					"min": 10,
+					"max": 12
+				},
+				{
+					"attributeType": 63,
+					"min": 10,
+					"max": 12
+				}
+			],
+			"Boss": "Clara",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Primordial Steel",
+			"Key": "PRIMORDIAL_STEEL",
+			"ItemId": 214,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 193,
+					"min": 680,
+					"max": 750
+				},
+				{
+					"attributeType": 158,
+					"min": 23,
+					"max": 30
+				},
+				{
+					"attributeType": 168,
+					"min": 6
+				}
+			],
+			"Boss": "Beezt",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Impure Globe",
+			"Key": "INPURE_GLOBE",
+			"ItemId": 215,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 193,
+					"min": 380,
+					"max": 400
+				},
+				{
+					"attributeType": 48,
+					"min": 260,
+					"max": 280
+				},
+				{
+					"attributeType": 161,
+					"min": 7,
+					"max": 9
+				},
+				{
+					"attributeType": 195,
+					"min": -20
+				}
+			],
+			"Boss": "Beezt",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Tolmon's Cruelty",
+			"Key": "TOLMON_CRUELTY_DIVINE",
+			"ItemId": 216,
+			"isDivine": true,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 7,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"difficulty": 2,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 193,
+					"min": 200,
+					"max": 250
+				},
+				{
+					"attributeType": 46,
+					"min": 4
+				},
+				{
+					"attributeType": 5,
+					"min": 20,
+					"max": 26
+				},
+				{
+					"attributeType": 16,
+					"min": 25,
+					"max": 30
+				},
+				{
+					"attributeType": 27,
+					"min": 12,
+					"max": 17
+				},
+				{
+					"attributeType": 38,
+					"min": 18,
+					"max": 22
+				}
+			],
+			"Boss": "Beezt",
+			"BossDifficulty": "Immortal"
+		},
+
+
+
+
+
+
+
+
+		{
+			"ArtifactName": "Crypt Scroll",
+			"Key": "S_CRYPT",
+			"ItemId": 183,
+			"isEquippable": false,
+			"isMutateable": true,
+			"isAugmentable": false,
+			"Rarity": 2,
+			"SlotType": 4,
+			"Type": 20,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 59,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"possibleMutationAttributes": []
+		},
+		{
+			"ArtifactName": "Warehouse Scroll",
+			"Key": "S_WAREHOUSE",
+			"ItemId": 184,
+			"isEquippable": false,
+			"isMutateable": true,
+			"isAugmentable": false,
+			"Rarity": 2,
+			"SlotType": 4,
+			"Type": 20,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 59,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"possibleMutationAttributes": []
+		},
+		{
+			"ArtifactName": "Fireland Scroll",
+			"Key": "S_FIRELAND",
+			"ItemId": 185,
+			"isEquippable": false,
+			"isMutateable": true,
+			"isAugmentable": false,
+			"Rarity": 2,
+			"SlotType": 4,
+			"Type": 20,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 59,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"possibleMutationAttributes": []
+		}
+
+
+
+	]
+}
