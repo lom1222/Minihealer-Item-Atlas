@@ -1,0 +1,6447 @@
+var artifactDataJson = {
+	"Artifacts": [{
+			"ArtifactName": "Simple Sword",
+			"Key": "SIMPLE_SWORD",
+			"ItemId": 1,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [0],
+			"HiddenItemLevel": 1,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 98,
+					"min": 5,
+					"max": 12
+				},
+				{
+					"attributeType": 113,
+					"min": 10,
+					"max": 27
+				}
+			],
+			"Boss": "Gump",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Simple Shield",
+			"Key": "SIMPLE_SHIELD",
+			"ItemId": 2,
+			"Rarity": 0,
+			"SlotType": 1,
+			"Type": 4,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 1,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 98,
+					"min": 5,
+					"max": 12
+				},
+				{
+					"attributeType": 113,
+					"min": 10,
+					"max": 27
+				}
+			],
+			"Boss": "Gump",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Simple Boot",
+			"Key": "SIMPLE_BOOT",
+			"ItemId": 122,
+			"Rarity": 0,
+			"SlotType": 1,
+			"Type": 17,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 2,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"Description": [{
+					"attributeType": 24,
+					"min": 5,
+					"max": 12
+				},
+				{
+					"attributeType": 35,
+					"min": 8,
+					"max": 14
+				}
+			],
+			"Boss": "Iqsior",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Simple Axe",
+			"Key": "SIMPLE_AXE",
+			"ItemId": 123,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 2,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+				"attributeType": 113,
+				"min": 37,
+				"max": 40
+			}],
+			"Boss": "Iqsior",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Simple Helm",
+			"Key": "SIMPLE_HELM",
+			"ItemId": 3,
+			"Rarity": 0,
+			"SlotType": 1,
+			"Type": 6,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 2,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 2,
+					"min": 30,
+					"max": 35
+				},
+				{
+					"attributeType": 13,
+					"min": 28,
+					"max": 30
+				}
+			],
+			"Boss": "Iqsior",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Simple Bow",
+			"Key": "SIMPLE_BOW",
+			"ItemId": 4,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 2,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+				"attributeType": 128,
+				"min": 5,
+				"max": 8
+			}],
+			"Boss": "Iqsior",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Iqsior's Cape",
+			"Key": "IQSIOR_CAPE",
+			"ItemId": 5,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [7],
+			"HiddenItemLevel": 3,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [33, 53],
+			"Description": [{
+					"attributeType": 35,
+					"min": 32,
+					"max": 35
+				},
+				{
+					"attributeType": 24,
+					"min": 20,
+					"max": 23
+				},
+				{
+					"attributeType": 48,
+					"min": 22,
+					"max": 29
+				}
+			],
+			"Boss": "Iqsior",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Simple Dagger",
+			"Key": "SIMPLE_DAGGER",
+			"ItemId": 6,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 9,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 2,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 128,
+					"min": 2,
+					"max": 5
+				},
+				{
+					"attributeType": 113,
+					"min": 15,
+					"max": 25
+				},
+				{
+					"attributeType": 28,
+					"min": 2,
+					"max": 5
+				},
+				{
+					"attributeType": 17,
+					"min": 2,
+					"max": 5
+				}
+			],
+			"Boss": "Solaria",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Simple Hat",
+			"Key": "SIMPLE_HAT",
+			"ItemId": 7,
+			"Rarity": 0,
+			"SlotType": 1,
+			"Type": 6,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 2,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 35,
+					"min": 20,
+					"max": 28
+				},
+				{
+					"attributeType": 48,
+					"min": 16,
+					"max": 19
+				}
+			],
+			"Boss": "Solaria",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Moon Orb",
+			"Key": "MOON_ORB",
+			"ItemId": 8,
+			"MutationPoolType": [9],
+			"Rarity": 1,
+			"SlotType": 2,
+			"Type": 8,
+			"HiddenItemLevel": 3,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 50,
+					"min": 80
+				},
+				{
+					"attributeType": 35,
+					"min": 38,
+					"max": 48
+				},
+				{
+					"attributeType": 48,
+					"min": 21,
+					"max": 31
+				}
+			],
+			"Boss": "Solaria",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Simple Ring",
+			"Key": "SIMPLE_RING",
+			"ItemId": 9,
+			"Rarity": 0,
+			"SlotType": 2,
+			"Type": 12,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 4,
+			"SellPrice": 0,
+			"DropRate": 0.6,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"Description": [{
+				"attributeType": 45,
+				"min": 21,
+				"max": 37
+			}],
+			"Boss": "Sepitus",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Sepitus's Claw",
+			"Key": "SEPITUS_CLAW",
+			"ItemId": 10,
+			"Rarity": 1,
+			"SlotType": 0,
+			"Type": 10,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 5,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"Description": [{
+				"attributeType": 44,
+				"min": 3.5,
+				"max": 5
+			}],
+			"Boss": "Sepitus",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Fortified Helm",
+			"Key": "FORTIFIED_HELM",
+			"ItemId": 11,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 6,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 6,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 35,
+					"max": 55
+				},
+				{
+					"attributeType": 13,
+					"min": 25,
+					"max": 35
+				}
+			],
+			"Boss": "Skeleton King",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Fortified Axe",
+			"Key": "FORTIFIED_AXE",
+			"ItemId": 12,
+			"Rarity": 1,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 6,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 113,
+					"min": 55,
+					"max": 75
+				},
+				{
+					"attributeType": 16,
+					"min": 20,
+					"max": 25
+				}
+			],
+			"Boss": "Gump",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Fortified Shield",
+			"Key": "FORTIFIED_SHIELD",
+			"ItemId": 13,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 4,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 7,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"Description": [{
+				"attributeType": 2,
+				"min": 70,
+				"max": 79
+			}],
+			"Boss": "Iqsior",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Fortified Arrow",
+			"Key": "FORTIFIED_ARROW",
+			"ItemId": 14,
+			"Rarity": 1,
+			"SlotType": 0,
+			"Type": 11,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 8,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 128,
+					"min": 14,
+					"max": 19
+				},
+				{
+					"attributeType": 26,
+					"min": 5,
+					"max": 10
+				}
+			],
+			"Boss": "Solaria",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Fortified Wand",
+			"Key": "FORTIFIED_WAND",
+			"ItemId": 15,
+			"Rarity": 1,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 9,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 193,
+					"min": 12,
+					"max": 20
+				},
+				{
+					"attributeType": 143,
+					"min": 25,
+					"max": 33
+				},
+				{
+					"attributeType": 48,
+					"min": 24,
+					"max": 28
+				}
+			],
+			"Boss": "Solaria",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Fortified Ring",
+			"Key": "FORTIFIED_RING",
+			"ItemId": 16,
+			"Rarity": 1,
+			"SlotType": 2,
+			"Type": 12,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 9,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+				"attributeType": 193,
+				"min": 31,
+				"max": 54
+			}],
+			"Boss": "Sepitus",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Mana Crystal",
+			"Key": "MANA_CRYSTAL",
+			"ItemId": 17,
+			"Rarity": 2,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 10,
+			"SellPrice": 0,
+			"DropRate": 0.33,
+			"possibleMutationAttributes": [53, 48, 50, 51],
+			"Description": [{
+					"attributeType": 50,
+					"min": 50,
+					"max": 75
+				},
+				{
+					"attributeType": 48,
+					"min": 22,
+					"max": 30
+				}
+			],
+			"Boss": "Sepitus",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Skeleton Sword",
+			"Key": "Skeleton KingELETON_SWORD",
+			"artifactVFXSpawnType": [1],
+			"ItemId": 18,
+			"Rarity": 2,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 13,
+			"SellPrice": 0,
+			"DropRate": 0.33,
+			"possibleMutationAttributes": [11, 12, 13, 14, 15, 16, 17, 53, 58],
+			"Description": [{
+				"attributeType": 113,
+				"min": 110,
+				"max": 150
+			}],
+			"Boss": "Skeleton King",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Gump's Eye",
+			"Key": "GUMP_EYE",
+			"artifactVFXSpawnType": [4],
+			"ItemId": 19,
+			"Rarity": 2,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 13,
+			"procCooldown": 10,
+			"procCooldownRemaining": 10,
+			"SellPrice": 0,
+			"DropRate": 0.33,
+			"possibleMutationAttributes": [2, 53],
+			"Description": [{
+					"attributeType": 35,
+					"min": 35,
+					"max": 41
+				},
+				{
+					"attributeType": 7,
+					"min": 3
+				},
+				{
+					"attributeType": 40,
+					"min": 2
+				}
+			],
+			"Boss": "Gump",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Iqsior's Staff",
+			"Key": "IQSIOR_STAFF",
+			"ItemId": 20,
+			"Rarity": 2,
+			"SlotType": 0,
+			"Type": 14,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 14,
+			"SellPrice": 0,
+			"DropRate": 0.33,
+			"possibleMutationAttributes": [49, 53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 54,
+					"max": 60
+				},
+				{
+					"attributeType": 143,
+					"min": 25,
+					"max": 35
+				},
+				{
+					"attributeType": 49,
+					"min": 2,
+					"max": 5
+				}
+			],
+			"Boss": "Iqsior",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Hou Yi's Bow",
+			"Key": "HOU_YI_BOW",
+			"ItemId": 21,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 15,
+			"SellPrice": 0,
+			"DropRate": 0.1,
+			"possibleMutationAttributes": [53, 54, 22, 23, 24, 25, 26, 27, 28],
+			"Description": [{
+					"attributeType": 128,
+					"min": 35,
+					"max": 40
+				},
+				{
+					"attributeType": 26,
+					"min": 3,
+					"max": 6
+				},
+				{
+					"attributeType": 27,
+					"min": 20,
+					"max": 25
+				},
+				{
+					"attributeType": 12,
+					"min": -25
+				}
+			],
+			"Boss": "Solaria",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Gem of Riches",
+			"Key": "GEM_OF_RICHES",
+			"ItemId": 22,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 15,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [53, 56, 57, 60],
+			"Description": [{
+					"attributeType": 193,
+					"min": 10,
+					"max": 20
+				},
+				{
+					"attributeType": 56,
+					"min": 10,
+					"max": 15
+				}
+			],
+			"Boss": "Sepitus",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Immortality",
+			"Key": "IMMORTALITY",
+			"ItemId": 23,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 4,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 16,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [2, 3, 53, 55],
+			"Description": [{
+					"attributeType": 2,
+					"min": 140,
+					"max": 190
+				},
+				{
+					"attributeType": 7,
+					"min": 3,
+					"max": 5
+				},
+				{
+					"attributeType": 9,
+					"min": 3,
+					"max": 5
+				}
+			],
+			"Boss": "Sepitus",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Reinforced Axe",
+			"Key": "REINFORCED_AXE",
+			"ItemId": 24,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 14,
+			"SellPrice": 0,
+			"DropRate": 0.6,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 2,
+			"maxEleDmgMod": 2,
+			"Description": [{
+					"attributeType": 113,
+					"min": 70,
+					"max": 85
+				},
+				{
+					"attributeType": 93,
+					"min": 3,
+					"max": 4
+				}
+			],
+			"Boss": "Despair",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Reinforced Armor",
+			"Key": "REINFORCED_ARMOR",
+			"ItemId": 25,
+			"Rarity": 0,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 14,
+			"SellPrice": 0,
+			"DropRate": 0.6,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 70,
+					"max": 85
+				},
+				{
+					"attributeType": 13,
+					"min": 50,
+					"max": 62
+				},
+				{
+					"attributeType": 24,
+					"min": 30,
+					"max": 35
+				},
+				{
+					"attributeType": 35,
+					"min": 40,
+					"max": 45
+				}
+			],
+			"Boss": "Despair",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Astonishing Glove",
+			"Key": "ASTONISHING_GLOVE",
+			"ItemId": 26,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 7,
+			"MutationPoolType": [6, 8],
+			"HiddenItemLevel": 18,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 193,
+					"min": 80,
+					"max": 85
+				},
+				{
+					"attributeType": 48,
+					"min": 70,
+					"max": 75
+				},
+				{
+					"attributeType": 62,
+					"min": 6
+				}
+			],
+			"Boss": "Despair",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Despair's Amulet",
+			"Key": "DESPAIR_AMULET",
+			"ItemId": 27,
+			"Rarity": 1,
+			"SlotType": 2,
+			"Type": 13,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 18,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 48,
+					"min": 60,
+					"max": 65
+				},
+				{
+					"attributeType": 207,
+					"min": 3,
+					"max": 4
+				},
+				{
+					"attributeType": 2,
+					"min": 200
+				},
+				{
+					"attributeType": 13,
+					"min": 200
+				}
+			],
+			"Boss": "Despair",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Book of Dread",
+			"Key": "BOOK_OF_DREAD",
+			"artifactVFXSpawnType": [3],
+			"ItemId": 29,
+			"Rarity": 2,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 22,
+			"SellPrice": 0,
+			"DropRate": 0.33,
+			"possibleMutationAttributes": [48, 49, 53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 180
+				},
+				{
+					"attributeType": 35,
+					"min": 180
+				},
+				{
+					"attributeType": 48,
+					"min": 90,
+					"max": 115
+				}
+			],
+			"Boss": "Despair",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Anguish",
+			"Key": "ANGUISH",
+			"artifactVFXSpawnType": [1],
+			"ItemId": 30,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 26,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [11, 12, 13, 14, 15, 16, 17, 53, 58],
+			"Description": [{
+					"attributeType": 114,
+					"min": 100,
+					"max": 110
+				},
+				{
+					"attributeType": 117,
+					"min": 50,
+					"max": 55
+				},
+				{
+					"attributeType": 169,
+					"min": 3,
+					"max": 4
+				},
+				{
+					"attributeType": 172,
+					"min": 3,
+					"max": 4
+				}
+			],
+			"Boss": "Despair",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Reinforced Cape",
+			"Key": "REINFORCED_CAPE",
+			"ItemId": 31,
+			"Rarity": 0,
+			"SlotType": 2,
+			"Type": 5,
+			"MutationPoolType": [7],
+			"HiddenItemLevel": 16,
+			"SellPrice": 0,
+			"DropRate": 0.6,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 1,
+			"Description": [{
+					"attributeType": 35,
+					"min": 63,
+					"max": 70
+				},
+				{
+					"attributeType": 24,
+					"min": 50,
+					"max": 55
+				},
+				{
+					"attributeType": 48,
+					"min": 34,
+					"max": 47
+				}
+			],
+			"Boss": "Cassandra",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Reinforced Bow",
+			"Key": "REINFORCED_BOW",
+			"ItemId": 32,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 16,
+			"SellPrice": 0,
+			"DropRate": 0.61,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 2,
+			"maxEleDmgMod": 2,
+			"Description": [{
+					"attributeType": 128,
+					"min": 9,
+					"max": 14
+				},
+				{
+					"attributeType": 24,
+					"min": 40,
+					"max": 45
+				}
+			],
+			"Boss": "Cassandra",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Eternal Ring",
+			"Key": "ETERNAL_RING",
+			"ItemId": 33,
+			"Rarity": 1,
+			"SlotType": 2,
+			"Type": 12,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 19,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 49,
+					"min": 5
+				},
+				{
+					"attributeType": 88,
+					"min": -3
+				},
+				{
+					"attributeType": 45,
+					"min": 3,
+					"max": 4
+				},
+				{
+					"attributeType": 44,
+					"min": 3,
+					"max": 4
+				}
+			],
+			"Boss": "Cassandra",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Luminous Word",
+			"Key": "LUMINOUS_WORD",
+			"ItemId": 34,
+			"Rarity": 2,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 26,
+			"SellPrice": 0,
+			"DropRate": 0.33,
+			"possibleMutationAttributes": [35, 39, 37, 53],
+			"Description": [{
+					"attributeType": 146,
+					"min": 170,
+					"max": 190
+				},
+				{
+					"attributeType": 35,
+					"min": 85,
+					"max": 100
+				},
+				{
+					"attributeType": 39,
+					"min": -8
+				}
+			],
+			"Boss": "Cassandra",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Partnership",
+			"Key": "PARTNERSHIP",
+			"ItemId": 35,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 33,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [2, 3, 13, 22, 24, 35, 45, 53, 55],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+				"attributeType": 2,
+				"min": 150,
+				"max": 200
+			}],
+			"Boss": "Cassandra",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Shooting Star",
+			"Key": "SHOOTING_STAR",
+			"ItemId": 36,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 34,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [53, 54, 22, 23, 24, 25, 26, 27, 28],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+					"attributeType": 128,
+					"min": 55,
+					"max": 70
+				},
+				{
+					"attributeType": 23,
+					"min": 2,
+					"max": 3
+				},
+				{
+					"attributeType": 24,
+					"min": 55,
+					"max": 70
+				},
+				{
+					"attributeType": 54,
+					"min": 1
+				}
+			],
+			"Boss": "Cassandra",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Reinforced Ring",
+			"Key": "REINFORCED_RING",
+			"ItemId": 37,
+			"Rarity": 0,
+			"SlotType": 2,
+			"Type": 12,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 19,
+			"SellPrice": 0,
+			"DropRate": 0.6,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 1,
+			"Description": [{
+					"attributeType": 193,
+					"min": 45,
+					"max": 52
+				},
+				{
+					"attributeType": 160,
+					"min": 11,
+					"max": 22
+				},
+				{
+					"attributeType": 48,
+					"min": 52,
+					"max": 55
+				}
+			],
+			"Boss": "Norrix",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Norrix's Flute",
+			"Key": "NORRIX_FLUTE",
+			"ItemId": 38,
+			"Rarity": 1,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 22,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 45,
+					"min": 100,
+					"max": 115
+				},
+				{
+					"attributeType": 48,
+					"min": 65,
+					"max": 70
+				},
+				{
+					"attributeType": 162,
+					"min": 11,
+					"max": 15
+				},
+				{
+					"attributeType": 62,
+					"min": 8
+				}
+			],
+			"Boss": "Norrix",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Luxury",
+			"Key": "LUXURY",
+			"ItemId": 39,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 36,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [53, 56, 57, 60],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 193,
+					"min": 44,
+					"max": 45
+				},
+				{
+					"attributeType": 57,
+					"min": 16,
+					"max": 22
+				}
+			],
+			"Boss": "Norrix",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Tooth and Nail",
+			"Key": "TOOTH_NAIL",
+			"artifactVFXSpawnType": [0],
+			"ItemId": 40,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 4,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 37,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [2, 3, 13, 22, 24, 35, 45, 53, 55],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 140,
+					"max": 150
+				},
+				{
+					"attributeType": 102,
+					"min": 100,
+					"max": 115
+				},
+				{
+					"attributeType": 9,
+					"min": 6
+				}
+			],
+      "Boss": "Norrix",
+      "BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Motivation",
+			"Key": "MOTIVATION_N",
+			"artifactVFXSpawnType": [4],
+			"ItemId": 41,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 6,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 38,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 0,
+			"possibleMutationAttributes": [5, 16, 27, 38, 53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2
+		},
+		{
+			"ArtifactName": "Motivation",
+			"Key": "MOTIVATION_B",
+			"artifactVFXSpawnType": [4],
+			"ItemId": 42,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 6,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 40,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 1,
+			"possibleMutationAttributes": [5, 16, 27, 38, 53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2
+		},
+		{
+			"ArtifactName": "Motivation",
+			"Key": "MOTIVATION_I",
+			"artifactVFXSpawnType": [4],
+			"ItemId": 43,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 6,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 43,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 2,
+			"possibleMutationAttributes": [5, 16, 27, 38, 53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 500,
+					"max": 560
+				},
+				{
+					"attributeType": 35,
+					"min": 390,
+					"max": 490
+				}
+			],
+			"Boss": "Tolmon",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Tolmon's Cruelty",
+			"Key": "TOLMON_CRUELTY_N",
+			"ItemId": 44,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 7,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 38,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 0,
+			"possibleMutationAttributes": [0, 11, 22, 33, 4, 15, 26, 37, 53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2
+		},
+		{
+			"ArtifactName": "Tolmon's Cruelty",
+			"Key": "TOLMON_CRUELTY_B",
+			"ItemId": 45,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 7,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 41,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 1,
+			"possibleMutationAttributes": [0, 11, 22, 33, 4, 15, 26, 37, 53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2
+		},
+		{
+			"ArtifactName": "Tolmon's Cruelty",
+			"Key": "TOLMON_CRUELTY_I",
+			"ItemId": 46,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 7,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 43,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"isChaotic": true,
+			"difficulty": 2,
+			"possibleMutationAttributes": [0, 11, 22, 33, 4, 15, 26, 37, 53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 5,
+					"min": 32,
+					"max": 38
+				},
+				{
+					"attributeType": 16,
+					"min": 35,
+					"max": 40
+				},
+				{
+					"attributeType": 27,
+					"min": 22,
+					"max": 27
+				},
+				{
+					"attributeType": 38,
+					"min": 26,
+					"max": 30
+				}
+			],
+			"Boss": "Tolmon",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Affluence",
+			"Key": "AFFLUENCE_N",
+			"ItemId": 47,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 38,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 0,
+			"possibleMutationAttributes": [53, 56, 57, 60],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2
+		},
+		{
+			"ArtifactName": "Affluence",
+			"Key": "AFFLUENCE_B",
+			"ItemId": 48,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 41,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 1,
+			"possibleMutationAttributes": [53, 56, 57, 60],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2
+		},
+		{
+			"ArtifactName": "Affluence",
+			"Key": "AFFLUENCE_I",
+			"ItemId": 49,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 43,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 2,
+			"possibleMutationAttributes": [53, 56, 57, 60],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+				"attributeType": 59,
+				"min": 35,
+				"max": 45
+			}],
+			"Boss": "Mirror",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Generosity",
+			"Key": "GENEROSITY_B",
+			"ItemId": 50,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 41,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 1,
+			"possibleMutationAttributes": [48, 53, 60],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2
+		},
+		{
+			"ArtifactName": "Generosity",
+			"Key": "GENEROSITY_I",
+			"ItemId": 51,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 44,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 2,
+			"possibleMutationAttributes": [48, 53, 60],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 45,
+					"min": 3,
+					"max": 5
+				},
+				{
+					"attributeType": 44,
+					"min": 2,
+					"max": 3
+				},
+				{
+					"attributeType": 60,
+					"min": 12,
+					"max": 18
+				}
+			],
+			"Boss": "Mirror",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Thor",
+			"Key": "THOR_I",
+			"artifactVFXSpawnType": [0],
+			"ItemId": 52,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 15,
+			"MutationPoolType": [0],
+			"HiddenItemLevel": 48,
+			"SellPrice": 0,
+			"DropRate": 0.05,
+			"isUltraRare": true,
+			"difficulty": 2,
+			"possibleMutationAttributes": [44, 45, 50, 51, 53],
+			"Description": [{
+					"attributeType": 101,
+					"min": 220,
+					"max": 260
+				},
+				{
+					"attributeType": 146,
+					"min": 180,
+					"max": 200
+				},
+				{
+					"attributeType": 61,
+					"min": 10
+				},
+				{
+					"attributeType": 171,
+					"min": 6,
+					"max": 7
+				}
+			],
+			"Boss": "Mirror",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Enchanted Arrow",
+			"Key": "ENCHANTED_ARROW",
+			"ItemId": 53,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 11,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 40,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53, 22, 24, 26, 28, 29],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+					"attributeType": 128,
+					"min": 55,
+					"max": 68
+				},
+				{
+					"attributeType": 26,
+					"min": 4,
+					"max": 6
+				}
+			],
+			"Boss": "Grunzar",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Enchanted Sword",
+			"Key": "ENCHANTED_SWORD",
+			"ItemId": 54,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [0],
+			"HiddenItemLevel": 40,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53, 11, 15, 16, 0, 4, 5, 6],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+					"attributeType": 98,
+					"min": 120,
+					"max": 150
+				},
+				{
+					"attributeType": 6,
+					"min": 2,
+					"max": 5
+				},
+				{
+					"attributeType": 113,
+					"min": 250,
+					"max": 280
+				}
+			],
+			"Boss": "Grunzar",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Demonic Cloak",
+			"Key": "DEMONIC_CLOAK",
+			"ItemId": 55,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [7],
+			"HiddenItemLevel": 41,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53, 48, 50, 49, 35, 40, 41, 43],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 35,
+					"min": 280,
+					"max": 360
+				},
+				{
+					"attributeType": 48,
+					"min": 280,
+					"max": 330
+				}
+			],
+			"Boss": "Grunzar",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Arcane Knowledge",
+			"Key": "ARCANE_KNOWLEDGE",
+			"ItemId": 56,
+			"Rarity": 2,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 42,
+			"SellPrice": 0,
+			"DropRate": 0.33,
+			"possibleMutationAttributes": [53, 48, 50, 49, 35, 40, 41, 43],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+				"attributeType": 48,
+				"min": 180,
+				"max": 190
+			}],
+			"Boss": "Grunzar",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Rubik's Cube",
+			"Key": "RUBIK_CUBE",
+			"ItemId": 57,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 42,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"Description": [{
+					"attributeType": 49,
+					"min": -5,
+					"max": 8
+				},
+				{
+					"attributeType": 61,
+					"min": -5,
+					"max": 8
+				},
+				{
+					"attributeType": 45,
+					"min": 8,
+					"max": -5
+				},
+				{
+					"attributeType": 62,
+					"min": 8,
+					"max": -5
+				},
+				{
+					"attributeType": 198,
+					"min": 1,
+					"max": 2
+				}
+			],
+			"Boss": "Grunzar",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Wisdom",
+			"Key": "WISDOM",
+			"ItemId": 58,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 13,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 42,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [53, 48, 50, 49, 35, 40, 41, 43],
+			"Description": [{
+					"attributeType": 45,
+					"min": 4,
+					"max": 5
+				},
+				{
+					"attributeType": 198,
+					"min": 2
+				}
+			],
+			"Boss": "Grunzar",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Enchanted Hat",
+			"Key": "ENCHANTED_HAT",
+			"ItemId": 59,
+			"Rarity": 0,
+			"SlotType": 1,
+			"Type": 6,
+			"MutationPoolType": [7],
+			"HiddenItemLevel": 40,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53, 48, 50, 49, 35, 40, 41, 43],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 35,
+					"min": 260,
+					"max": 280
+				},
+				{
+					"attributeType": 24,
+					"min": 190,
+					"max": 205
+				},
+				{
+					"attributeType": 48,
+					"min": 190
+				}
+			],
+			"Boss": "Izki",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Enchanted Armor",
+			"Key": "ENCHANTED_ARMOR",
+			"ItemId": 60,
+			"Rarity": 0,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 40,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [
+				53,
+				2,
+				3,
+				10,
+				13,
+				14,
+				24,
+				25,
+				35,
+				36,
+				43,
+				32,
+				21,
+				10
+			],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 900,
+					"max": 1050
+				},
+				{
+					"attributeType": 193,
+					"min": 90,
+					"max": 105
+				}
+			],
+			"Boss": "Izki",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Demonic Glove",
+			"Key": "DEMONIC_GLOVE",
+			"ItemId": 61,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 7,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 40,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53, 61, 62, 48, 50, 51],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 61,
+					"min": 9,
+					"max": 11
+				},
+				{
+					"attributeType": 62,
+					"min": 8,
+					"max": 11
+				}
+			],
+			"Boss": "Izki",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Dazzling Light",
+			"Key": "DAZZLING_LIGHT",
+			"ItemId": 62,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 40,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [53]
+		},
+		{
+			"ArtifactName": "Meek's Cunning",
+			"Key": "MEEK_CUNNING",
+			"ItemId": 63,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 45,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"Description": [{
+					"attributeType": 45,
+					"min": 6,
+					"max": 10
+				},
+				{
+					"attributeType": 44,
+					"min": 5,
+					"max": 7
+				},
+				{
+					"attributeType": 198,
+					"min": 5,
+					"max": 6
+				},
+				{
+					"attributeType": 49,
+					"min": 6,
+					"max": 8
+				},
+				{
+					"attributeType": 56,
+					"min": 5,
+					"max": 9
+				},
+				{
+					"attributeType": 57,
+					"min": 9,
+					"max": 11
+				}
+			],
+			"Boss": "Izki",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Rampage",
+			"Key": "RAMPAGE",
+			"ItemId": 64,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 48,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [
+				53,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			],
+			"Description": [{
+					"attributeType": 113,
+					"min": 320,
+					"max": 350
+				},
+				{
+					"attributeType": 12,
+					"min": 3,
+					"max": 4
+				},
+				{
+					"attributeType": 16,
+					"min": 20,
+					"max": 25
+				}
+			],
+			"Boss": "Izki",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Fury",
+			"Key": "FURY_N",
+			"ItemId": 65,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 20,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 0,
+			"possibleMutationAttributes": [
+				53,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		},
+		{
+			"ArtifactName": "Fury",
+			"Key": "FURY_B",
+			"ItemId": 66,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 22,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 1,
+			"possibleMutationAttributes": [
+				53,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		},
+		{
+			"ArtifactName": "Fury",
+			"Key": "FURY_I",
+			"ItemId": 67,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 24,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 2,
+			"possibleMutationAttributes": [
+				53,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			],
+			"Description": [{
+					"attributeType": 114,
+					"min": 115,
+					"max": 125
+				},
+				{
+					"attributeType": 17,
+					"min": 5,
+					"max": 7
+				},
+				{
+					"attributeType": 63,
+					"min": 12,
+					"max": 14
+				}
+			],
+			"Boss": "Despair",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "The Tempest",
+			"Key": "TEMPEST_N",
+			"ItemId": 68,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 20,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 0,
+			"possibleMutationAttributes": [ 53, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 ]
+		},
+		{
+			"ArtifactName": "The Tempest",
+			"Key": "TEMPEST_B",
+			"ItemId": 69,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 22,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 1,
+			"possibleMutationAttributes": [ 53, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 ]
+		},
+		{
+			"ArtifactName": "The Tempest",
+			"Key": "TEMPEST_I",
+			"ItemId": 70,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 24,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 2,
+			"possibleMutationAttributes": [
+				53,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32
+			],
+			"Description": [{
+					"attributeType": 130,
+					"min": 21,
+					"max": 23
+				},
+				{
+					"attributeType": 28,
+					"min": 5,
+					"max": 7
+				},
+				{
+					"attributeType": 64,
+					"min": 12,
+					"max": 14
+				}
+			],
+			"Boss": "Despair",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Serenity",
+			"Key": "SERENITY_N",
+			"ItemId": 71,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 20,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 0,
+			"possibleMutationAttributes": [
+				53,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				48,
+				49,
+				50,
+				51
+			]
+		},
+		{
+			"ArtifactName": "Serenity",
+			"Key": "SERENITY_B",
+			"ItemId": 72,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 22,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"difficulty": 1,
+			"possibleMutationAttributes": [ 53, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 48, 49, 50, 51 ]
+		},
+		{
+			"ArtifactName": "Serenity",
+			"Key": "SERENITY_I",
+			"ItemId": 73,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 24,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"isChaotic": true,
+			"difficulty": 2,
+			"possibleMutationAttributes": [ 53, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 48, 49, 50, 51  ],
+			"Description": [{
+					"attributeType": 146,
+					"min": 80,
+					"max": 88
+				},
+				{
+					"attributeType": 35,
+					"min": 70,
+					"max": 75
+				},
+				{
+					"attributeType": 48,
+					"min": 55,
+					"max": 65
+				}
+			],
+			"Boss": "Despair",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Light's Vigil",
+			"Key": "LIGHT_VIGIL",
+			"ItemId": 74,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 13,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 26,
+			"SellPrice": 0,
+			"DropRate": 0.04,
+			"isUltraRare": true,
+			"isChaotic": true,
+			"difficulty": 2,
+			"possibleMutationAttributes": [ 53, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 48, 49, 50, 51 ],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 48,
+					"min": 126,
+					"max": 150
+				},
+				{
+					"attributeType": 49,
+					"min": 2,
+					"max": 4
+				},
+				{
+					"attributeType": 65,
+					"min": 10,
+					"max": 15
+				},
+				{
+					"attributeType": 66,
+					"min": 10,
+					"max": 13
+				}
+			],
+			"Boss": "Despair",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Corrupted Armor",
+			"Key": "CORRUPTED_ARMOR",
+			"ItemId": 76,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 16,
+			"MutationPoolType": [1, 3, 5, 7],
+			"HiddenItemLevel": 50,
+			"isCorrupted": true,
+			"SellPrice": 0,
+			"DropRate": 0.02,
+			"possibleMutationAttributes": [53],
+			"possibleRolledAttributes": [ 2, 3, 7, 8, 9, 10, 13, 14, 18, 19, 20, 21, 24, 25, 29, 30, 31, 32, 35, 36, 40, 41, 42, 43, 45, 50, 51, 60  ]
+		},
+		{
+			"ArtifactName": "Corrupted Jewel",
+			"Key": "CORRUPTED_JEWEL",
+			"ItemId": 77,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 16,
+			"MutationPoolType": [10],
+			"HiddenItemLevel": 50,
+			"isCorrupted": true,
+			"SellPrice": 0,
+			"DropRate": 0.02,
+			"possibleMutationAttributes": [53],
+			"possibleRolledAttributes": [ 44, 45, 46, 47, 48, 49, 50, 51, 54, 59, 61, 62, 63, 64, 65, 66, 67, 68, 69, 72, 73, 74, 77, 78, 79 ]
+		},
+		{
+			"ArtifactName": "Corrupted Axe",
+			"Key": "CORRUPTED_AXE",
+			"ItemId": 78,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 50,
+			"isCorrupted": true,
+			"SellPrice": 0,
+			"DropRate": 0.02,
+			"possibleMutationAttributes": [53],
+			"possibleRolledAttributes": [11, 12, 13, 14, 15, 16, 17, 18, 19, 63, 80]
+		},
+		{
+			"ArtifactName": "Corrupted Sword",
+			"Key": "CORRUPTED_SWORD",
+			"ItemId": 79,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [0],
+			"HiddenItemLevel": 50,
+			"isCorrupted": true,
+			"SellPrice": 0,
+			"DropRate": 0.02,
+			"possibleMutationAttributes": [53],
+			"possibleRolledAttributes": [0, 1, 2, 3, 4, 5, 6, 7, 8, 75, 76]
+		},
+		{
+			"ArtifactName": "Corrupted Wand",
+			"Key": "CORRUPTED_WAND",
+			"ItemId": 80,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 50,
+			"isCorrupted": true,
+			"SellPrice": 0,
+			"DropRate": 0.02,
+			"possibleMutationAttributes": [53],
+			"possibleRolledAttributes": [ 35, 36, 37, 38, 39, 40, 41, 48, 49, 65, 66, 74  ]
+		},
+		{
+			"ArtifactName": "Corrupted Bow",
+			"Key": "CORRUPTED_BOW",
+			"ItemId": 81,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 50,
+			"isCorrupted": true,
+			"SellPrice": 0,
+			"DropRate": 0.02,
+			"possibleMutationAttributes": [53],
+			"possibleRolledAttributes": [22, 23, 24, 25, 26, 27, 28, 64, 70, 71, 86]
+		},
+		{
+			"ArtifactName": "Enchanted Bow",
+			"Key": "ENCHANTED_BOW",
+			"ItemId": 82,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 42,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53, 54, 22, 23, 24, 25, 26, 27, 28],
+			"possibleRolledAttributes": [],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+					"attributeType": 128,
+					"min": 34,
+					"max": 42
+				},
+				{
+					"attributeType": 27,
+					"min": 20,
+					"max": 35
+				},
+				{
+					"attributeType": 28,
+					"min": 8,
+					"max": 10
+				}
+			],
+			"Boss": "Sargaris",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Enchanted Helm",
+			"Key": "ENCHANTED_HELM",
+			"ItemId": 83,
+			"Rarity": 0,
+			"SlotType": 1,
+			"Type": 6,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 42,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [5, 16, 27, 38, 53],
+			"possibleRolledAttributes": [],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 710,
+					"max": 750
+				},
+				{
+					"attributeType": 13,
+					"min": 600,
+					"max": 610
+				}
+			],
+			"Boss": "Sargaris",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Requiem",
+			"Key": "REQUIEM",
+			"ItemId": 84,
+			"Rarity": 2,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 44,
+			"SellPrice": 0,
+			"DropRate": 0.33,
+			"possibleMutationAttributes": [ 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 48, 49, 50, 51, 53 ],
+			"possibleRolledAttributes": [],
+			"Description": [{
+					"attributeType": 144,
+					"min": 190,
+					"max": 210
+				},
+				{
+					"attributeType": 35,
+					"min": 300,
+					"max": 340
+				},
+				{
+					"attributeType": 48,
+					"min": 260,
+					"max": 310
+				},
+				{
+					"attributeType": 49,
+					"min": 6,
+					"max": 8
+				}
+			],
+			"Boss": "Sargaris",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Ivory Conqueror",
+			"Key": "IVORY_CONQUEROR",
+			"ItemId": 85,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 4,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 48,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [2, 3, 13, 22, 24, 35, 45, 53, 55],
+			"possibleRolledAttributes": [],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 193,
+					"min": 2,
+					"max": 3
+				},
+				{
+					"attributeType": 48,
+					"min": 80,
+					"max": 85
+				},
+				{
+					"attributeType": 9,
+					"min": 17
+				}
+			],
+			"Boss": "Sargaris",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Endless Glory",
+			"Key": "ENDLESS_GLORY",
+			"ItemId": 86,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [7],
+			"HiddenItemLevel": 48,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [2, 3, 13, 22, 24, 35, 45, 53, 55],
+			"possibleRolledAttributes": [],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTierce": 3,
+			"Description": [{
+					"attributeType": 48,
+					"min": 210,
+					"max": 230
+				},
+				{
+					"attributeType": 45,
+					"min": 6,
+					"max": 8
+				},
+				{
+					"attributeType": 198,
+					"min": 5,
+					"max": 6
+				},
+				{
+					"attributeType": 60,
+					"min": 10,
+					"max": 13
+				},
+				{
+					"attributeType": 85,
+					"min": -10,
+					"max": -12
+				}
+			],
+			"Boss": "Sargaris",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Windforce",
+			"Key": "WINDFORCE",
+			"artifactVFXSpawnType": [2],
+			"ItemId": 87,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 48,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [53, 54, 22, 23, 24, 25, 26, 27, 28],
+			"possibleRolledAttributes": [],
+			"Description": [{
+					"attributeType": 128,
+					"min": 90,
+					"max": 110
+				},
+				{
+					"attributeType": 27,
+					"min": 20,
+					"max": 25
+				},
+				{
+					"attributeType": 64,
+					"min": 20,
+					"max": 22
+				},
+				{
+					"attributeType": 54,
+					"min": 1
+				}
+			],
+			"Boss": "Sargaris",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Rubik's Sphere",
+			"Key": "RUBIK_SPHERE",
+			"ItemId": 88,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 42,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"Description": [{
+					"attributeType": 48,
+					"min": 8,
+					"max": -5
+				},
+				{
+					"attributeType": 61,
+					"min": 8,
+					"max": -5
+				},
+				{
+					"attributeType": 45,
+					"min": -5,
+					"max": 8
+				},
+				{
+					"attributeType": 62,
+					"min": -5,
+					"max": 8
+				},
+				{
+					"attributeType": 198,
+					"min": 1,
+					"max": 2
+				}
+			],
+			"Boss": "Grunzar",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Enchanted Wand",
+			"Key": "ENCHANTED_WAND",
+			"ItemId": 89,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 43,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 2,
+			"maxEleDmgMod": 2,
+			"Description": [{
+					"attributeType": 143,
+					"min": 250,
+					"max": 340
+				},
+				{
+					"attributeType": 48,
+					"min": 250,
+					"max": 330
+				},
+				{
+					"attributeType": 161,
+					"min": 11,
+					"max": 16
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Enchanted Amulet",
+			"Key": "ENCHANTED_AMULET",
+			"ItemId": 90,
+			"Rarity": 0,
+			"SlotType": 2,
+			"Type": 13,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 43,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 45,
+					"min": 3,
+					"max": 9
+				},
+				{
+					"attributeType": 49,
+					"min": 5,
+					"max": 7
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "normal"
+		},
+		{
+			"ArtifactName": "Flux",
+			"Key": "FLUX",
+			"ItemId": 91,
+			"Rarity": 1,
+			"SlotType": 2,
+			"Type": 12,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 45,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [ 53, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 45, 48, 49 ],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 24,
+					"min": 240,
+					"max": 320
+				},
+				{
+					"attributeType": 48,
+					"min": 140,
+					"max": 160
+				},
+				{
+					"attributeType": 54,
+					"min": 1
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Valhalla",
+			"Key": "VALHALLA",
+			"ItemId": 92,
+			"Rarity": 2,
+			"SlotType": 2,
+			"Type": 13,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 47,
+			"SellPrice": 0,
+			"DropRate": 0.33,
+			"possibleMutationAttributes": [ 53, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 45, 48, 49 ],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 2,
+					"min": 200,
+					"max": 240
+				},
+				{
+					"attributeType": 48,
+					"min": 135,
+					"max": 155
+				},
+				{
+					"attributeType": 9,
+					"min": 1
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Edge of Eternity",
+			"Key": "EDGE_OF_ETERNITY",
+			"artifactVFXSpawnType": [3],
+			"ItemId": 93,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 52,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [ 53, 33, 34, 35, 36, 27, 38, 29, 40, 41, 42, 43, 45, 48, 49 ],
+			"Description": [{
+					"attributeType": 35,
+					"min": 380,
+					"max": 390
+				},
+				{
+					"attributeType": 146,
+					"min": 333,
+					"max": 350
+				},
+				{
+					"attributeType": 48,
+					"min": 300,
+					"max": 330
+				},
+				{
+					"attributeType": 42,
+					"min": 5,
+					"max": 8
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Borrowed Time",
+			"Key": "DOOM_GUARD",
+			"ItemId": 94,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [0],
+			"HiddenItemLevel": 54,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [ 53, 2, 3, 7, 8, 13, 14, 18, 19, 24, 25, 35, 36, 45, 48, 49, 81 ],
+			"Description": [{
+					"attributeType": 193,
+					"min": 400,
+					"max": 450
+				},
+				{
+					"attributeType": 198,
+					"min": 3
+				},
+				{
+					"attributeType": 170,
+					"min": 5,
+					"max": 6
+				},
+				{
+					"attributeType": 160,
+					"min": 7,
+					"max": 8
+				},
+				{
+					"attributeType": 65,
+					"min": 80,
+					"max": 90
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Vengeance",
+			"Key": "VENGENCE",
+			"ItemId": 95,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 13,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 54,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"Description": [{
+					"attributeType": 113,
+					"min": 300,
+					"max": 380
+				},
+				{
+					"attributeType": 16,
+					"min": 30,
+					"max": 50
+				},
+				{
+					"attributeType": 48,
+					"min": 129,
+					"max": 138
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Mercy",
+			"Key": "MERCY",
+			"ItemId": 96,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [7],
+			"HiddenItemLevel": 57,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"isChaotic": true,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 49,
+					"min": 18,
+					"max": 20
+				},
+				{
+					"attributeType": 96,
+					"min": -5,
+					"max": -8
+				}
+			],
+			"Boss": "Norrix",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Simple Belt",
+			"Key": "SIMPLE_BELT",
+			"ItemId": 97,
+			"Rarity": 0,
+			"SlotType": 2,
+			"Type": 16,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 5,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 36,
+					"max": 40
+				},
+				{
+					"attributeType": 48,
+					"min": 25,
+					"max": 31
+				}
+			],
+			"Boss": "Sepitus",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Reinforced Wand",
+			"Key": "REINFORCED_WAND",
+			"ItemId": 98,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 16,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 2,
+			"maxEleDmgMod": 2,
+			"Description": [{
+					"attributeType": 143,
+					"min": 31,
+					"max": 39
+				},
+				{
+					"attributeType": 35,
+					"min": 48,
+					"max": 53
+				},
+				{
+					"attributeType": 48,
+					"min": 40,
+					"max": 46
+				}
+			],
+			"Boss": "Cassandra",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Reinforced Boot",
+			"Key": "REINFORCED_BOOT",
+			"ItemId": 99,
+			"Rarity": 0,
+			"SlotType": 1,
+			"Type": 17,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 18,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 1,
+			"Description": [{
+					"attributeType": 24,
+					"min": 45,
+					"max": 49
+				},
+				{
+					"attributeType": 29,
+					"min": 6,
+					"max": 7
+				},
+				{
+					"attributeType": 48,
+					"min": 33,
+					"max": 36
+				}
+			],
+			"Boss": "Norrix",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Fortified Sword",
+			"Key": "FORTIFIED_SWORD",
+			"ItemId": 100,
+			"Rarity": 1,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [0],
+			"HiddenItemLevel": 6,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+					"attributeType": 98,
+					"min": 15,
+					"max": 18
+				},
+				{
+					"attributeType": 143,
+					"min": 16,
+					"max": 19
+				}
+			],
+			"Boss": "Skeleton King",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Norrix's Carcass",
+			"Key": "NORRIX_CARCASS",
+			"ItemId": 101,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 22,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [ 53, 2, 3, 7, 8, 13, 14, 18, 19, 24, 25, 35, 36, 45, 48, 49, 81 ],
+			"Description": [{
+					"attributeType": 45,
+					"min": 4,
+					"max": 5
+				},
+				{
+					"attributeType": 2,
+					"min": 110,
+					"max": 158
+				},
+				{
+					"attributeType": 81,
+					"min": -2,
+					"max": -3
+				},
+				{
+					"attributeType": 48,
+					"min": 70,
+					"max": 75
+				}
+			],
+			"Boss": "Norrix",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Demonic Armor",
+			"Key": "DEMONIC_ARMOR",
+			"ItemId": 102,
+			"Rarity": 2,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 41,
+			"SellPrice": 0,
+			"DropRate": 0.33,
+			"possibleMutationAttributes": [ 53, 2, 3, 7, 8, 13, 14, 18, 19, 24, 25, 35, 36, 45, 48, 49, 81 ],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 193,
+					"min": 5,
+					"max": 6
+				},
+				{
+					"attributeType": 87,
+					"min": 4,
+					"max": 5
+				},
+				{
+					"attributeType": 48,
+					"min": 110,
+					"max": 145
+				}
+			],
+			"Boss": "Izki",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Wind's Wisper",
+			"Key": "WISPERWIND",
+			"ItemId": 103,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 13,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 41,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [ 53, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 45, 48, 49 ],
+			"Description": [{
+					"attributeType": 160,
+					"min": 22,
+					"max": 28
+				},
+				{
+					"attributeType": 24,
+					"min": 100,
+					"max": 150
+				},
+				{
+					"attributeType": 32,
+					"min": 8,
+					"max": 11
+				},
+				{
+					"attributeType": 48,
+					"min": 115,
+					"max": 135
+				}
+			],
+			"Boss": "Sargaris",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Song of Hope",
+			"Key": "SONG_OF_HOPE",
+			"ItemId": 104,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 48,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [ 53, 2, 3, 7, 8, 13, 14, 18, 19, 24, 25, 35, 36, 45, 48, 49 ],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 48,
+					"min": 245,
+					"max": 265
+				},
+				{
+					"attributeType": 45,
+					"min": 4,
+					"max": 5
+				},
+				{
+					"attributeType": 84,
+					"min": 4
+				},
+				{
+					"attributeType": 89,
+					"min": -65
+				}
+			],
+			"Boss": "Grunzar",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Solitude",
+			"Key": "SOLITUDE",
+			"ItemId": 105,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 12,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 48,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+				"attributeType": 48,
+				"min": 90,
+				"max": 110
+			}],
+			"Boss": "Izki",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Holy Wool",
+			"Key": "HOLY_WOOL",
+			"ItemId": 106,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 17,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 50,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"Description": [{
+					"attributeType": 45,
+					"min": 3,
+					"max": 4
+				},
+				{
+					"attributeType": 35,
+					"min": 350,
+					"max": 400
+				},
+				{
+					"attributeType": 24,
+					"min": 320,
+					"max": 380
+				},
+				{
+					"attributeType": 48,
+					"min": 100,
+					"max": 115
+				},
+				{
+					"attributeType": 198,
+					"min": 3
+				}
+			],
+			"Boss": "Sargaris",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Seism the Devourer of Gods",
+			"Key": "SEISM",
+			"ItemId": 107,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 55,
+			"isChaotic": true,
+			"isUltraRare": true,
+			"SellPrice": 0,
+			"DropRate": 0.05,
+			"possibleMutationAttributes": [53, 11, 12, 13, 14, 15, 16, 17],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+					"attributeType": 113,
+					"min": 60,
+					"max": 85
+				},
+				{
+					"attributeType": 117,
+					"min": 200,
+					"max": 380
+				},
+				{
+					"attributeType": 17,
+					"min": 80,
+					"max": 100
+				},
+				{
+					"attributeType": 93,
+					"min": -10
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Rainbow Soul",
+			"Key": "RAINBOW_SOUL",
+			"ItemId": 108,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 13,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 55,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"Description": [{
+					"attributeType": 45,
+					"min": 2,
+					"max": 3
+				},
+				{
+					"attributeType": 198,
+					"min": 2
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Demonic Sword",
+			"Key": "DEMONIC_SWORD",
+			"ItemId": 109,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [0],
+			"HiddenItemLevel": 47,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 2,
+			"maxEleDmgMod": 2,
+			"Description": [{
+					"attributeType": 98,
+					"min": 340,
+					"max": 380
+				},
+				{
+					"attributeType": 6,
+					"min": 5,
+					"max": 6
+				},
+				{
+					"attributeType": 4,
+					"min": 2,
+					"max": 3
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Demonic Boot",
+			"Key": "DEMONIC_BOOT",
+			"ItemId": 110,
+			"Rarity": 0,
+			"SlotType": 1,
+			"Type": 17,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 47,
+			"SellPrice": 0,
+			"DropRate": 0.65,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 35,
+					"min": 290,
+					"max": 350
+				},
+				{
+					"attributeType": 24,
+					"min": 280,
+					"max": 300
+				},
+				{
+					"attributeType": 48,
+					"min": 120,
+					"max": 150
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Demonic Ring",
+			"Key": "DEMONIC_RING",
+			"ItemId": 111,
+			"Rarity": 1,
+			"SlotType": 2,
+			"Type": 12,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 48,
+			"SellPrice": 0,
+			"DropRate": 0.41,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 45,
+					"min": 7,
+					"max": 10
+				},
+				{
+					"attributeType": 47,
+					"min": 20,
+					"max": 25
+				},
+				{
+					"attributeType": 48,
+					"min": 220,
+					"max": 240
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Pouch of the Forest",
+			"Key": "FOREST_POUCH",
+			"ItemId": 112,
+			"Rarity": 2,
+			"SlotType": 2,
+			"Type": 18,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 49,
+			"SellPrice": 0,
+			"DropRate": 0.33,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"Description": [{
+					"attributeType": 50,
+					"min": 200,
+					"max": 250
+				},
+				{
+					"attributeType": 94,
+					"min": 15,
+					"max": 20
+				},
+				{
+					"attributeType": 48,
+					"min": 180,
+					"max": 190
+				},
+				{
+					"attributeType": 170,
+					"min": 8
+				},
+				{
+					"attributeType": 169,
+					"min": 8
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Nature Tunic",
+			"Key": "NATURE_TUNIC",
+			"ItemId": 113,
+			"Rarity": 2,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [5],
+			"HiddenItemLevel": 49,
+			"SellPrice": 0,
+			"DropRate": 0.33,
+			"possibleMutationAttributes": [ 53, 24, 25, 29, 30, 31, 32, 35, 36, 40, 41, 42, 43 ],
+			"Description": [{
+					"attributeType": 193,
+					"min": 120,
+					"max": 150
+				},
+				{
+					"attributeType": 198,
+					"min": 10,
+					"max": 11
+				},
+				{
+					"attributeType": 172,
+					"min": 8,
+					"max": 10
+				},
+				{
+					"attributeType": 48,
+					"min": -200
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Hand of Madness",
+			"Key": "HAND_OF_MADNESS",
+			"ItemId": 114,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 18,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 60,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"Description": [{
+					"attributeType": 46,
+					"min": 2,
+					"max": 3
+				},
+				{
+					"attributeType": 61,
+					"min": 4,
+					"max": 5
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Sunlight",
+			"Key": "SUNLIGHT",
+			"artifactVFXSpawnType": [3],
+			"ItemId": 115,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 58,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [ 53, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 48, 49, 50, 51 ],
+			"Description": [{
+					"attributeType": 144,
+					"min": 480,
+					"max": 510
+				},
+				{
+					"attributeType": 39,
+					"min": 7,
+					"max": 9
+				},
+				{
+					"attributeType": 49,
+					"min": 6,
+					"max": 7
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Faithkeeper",
+			"Key": "FAITHKEEPER",
+			"ItemId": 116,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 4,
+			"MutationPoolType": [0],
+			"HiddenItemLevel": 60,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.05,
+			"possibleMutationAttributes": [2, 3, 13, 22, 24, 35, 45, 53, 55],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 48,
+					"min": 180,
+					"max": 200
+				},
+				{
+					"attributeType": 200,
+					"min": 4,
+					"max": 6
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Celestia",
+			"Key": "CELESTIA",
+			"artifactVFXSpawnType": [3],
+			"ItemId": 117,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 60,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [ 53, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 48, 49, 50, 51 ],
+			"Description": [{
+					"attributeType": 48,
+					"min": 260,
+					"max": 290
+				},
+				{
+					"attributeType": 49,
+					"min": 4,
+					"max": 6
+				},
+				{
+					"attributeType": 195,
+					"min": 10,
+					"max": 16
+				}
+			],
+			"Boss": "Sargaris",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Dragonheart",
+			"Key": "DRAGONHEART",
+			"ItemId": 118,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 18,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 60,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"procCooldown": 20,
+			"procCooldownRemaining": 0,
+			"hasInitialProcCooldown": true,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 45,
+					"min": 4,
+					"max": 5
+				},
+				{
+					"attributeType": 48,
+					"min": 110,
+					"max": 130
+				}
+			],
+			"Boss": "Despair",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Shiverspine",
+			"Key": "SHIVERSPINE",
+			"artifactVFXSpawnType": [3],
+			"ItemId": 119,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 60,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.17,
+			"possibleMutationAttributes": [ 53, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 48, 49, 50, 51 ],
+			"Description": [{
+					"attributeType": 145,
+					"min": 250,
+					"max": 270
+				},
+				{
+					"attributeType": 48,
+					"min": 290,
+					"max": 310
+				}
+			],
+			"Boss": "Izki",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Shroud of Eternal Wars",
+			"Key": "ETERNAL_WARS",
+			"ItemId": 120,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [7, 6],
+			"HiddenItemLevel": 58,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"possibleMutationAttributes": [53, 35, 36, 40, 41, 42, 43],
+			"Description": [{
+					"attributeType": 35,
+					"min": 450,
+					"max": 480
+				},
+				{
+					"attributeType": 48,
+					"min": 280,
+					"max": 320
+				},
+				{
+					"attributeType": 198,
+					"min": 4,
+					"max": 5
+				},
+				{
+					"attributeType": 41,
+					"min": 12,
+					"max": 15
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Gauntlets of Holy Might",
+			"Key": "GAUNTLETS_OF_HOLY_MIGHT",
+			"artifactVFXSpawnType": [1],
+			"ItemId": 121,
+			"Rarity": 2,
+			"SlotType": 1,
+			"Type": 7,
+			"MutationPoolType": [2, 3],
+			"HiddenItemLevel": 60,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [ 53, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 113,
+					"min": 110,
+					"max": 130
+				},
+				{
+					"attributeType": 13,
+					"min": 340,
+					"max": 360
+				}
+			],
+			"Boss": "Cassandra",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Frostfire Armor",
+			"Key": "FROSTFIRE_ARMOR",
+			"ItemId": 124,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 4,
+			"SellPrice": 0,
+			"DropRate": 0.4,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 45,
+					"min": 1.5,
+					"max": 2
+				},
+				{
+					"attributeType": 169,
+					"min": 1.2,
+					"max": 1.5
+				},
+				{
+					"attributeType": 170,
+					"min": 1.2,
+					"max": 1.5
+				}
+			],
+			"Boss": "Solaria",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Black Wand",
+			"Key": "BLACK_WAND",
+			"ItemId": 125,
+			"Rarity": 1,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 4,
+			"SellPrice": 0,
+			"DropRate": 0.4,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 143,
+					"min": 5,
+					"max": 10
+				},
+				{
+					"attributeType": 48,
+					"min": 8,
+					"max": 11
+				},
+				{
+					"attributeType": 147,
+					"min": 4,
+					"max": 8
+				}
+			],
+			"Boss": "Sepitus",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Fortified Bow",
+			"Key": "FORTIFIED_BOW",
+			"ItemId": 126,
+			"Rarity": 1,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 6,
+			"SellPrice": 0,
+			"DropRate": 0.4,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+				"attributeType": 128,
+				"min": 11,
+				"max": 16
+			}],
+			"Boss": "Skeleton King",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Fortified Boot",
+			"Key": "FORTIFIED_BOOT",
+			"ItemId": 127,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 17,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 7,
+			"SellPrice": 0,
+			"DropRate": 0.4,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"Description": [{
+					"attributeType": 24,
+					"min": 14,
+					"max": 16
+				},
+				{
+					"attributeType": 35,
+					"min": 20,
+					"max": 22
+				}
+			],
+			"Boss": "Gump",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Riddle",
+			"Key": "RIDDLE",
+			"ItemId": 128,
+			"Rarity": 2,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 8,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 2,
+			"maxEleDmgMod": 2,
+			"Description": [{
+					"attributeType": 143,
+					"min": 15,
+					"max": 25
+				},
+				{
+					"attributeType": 48,
+					"min": 20,
+					"max": 25
+				}
+			],
+			"Boss": "Gump",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Lion Heart",
+			"Key": "LION_HEART",
+			"ItemId": 129,
+			"Rarity": 2,
+			"SlotType": 1,
+			"Type": 4,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 7,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 2,
+					"min": 20,
+					"max": 25
+				},
+				{
+					"attributeType": 108,
+					"min": 2
+				},
+				{
+					"attributeType": 9,
+					"min": 1,
+					"max": 2
+				}
+			],
+			"Boss": "Skeleton King",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Fortified BattlePlate",
+			"Key": "FORTIFIED_BATTLEPLATE",
+			"ItemId": 130,
+			"Rarity": 2,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 6,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 193,
+					"min": 15,
+					"max": 18
+				},
+				{
+					"attributeType": 194,
+					"min": 3
+				},
+				{
+					"attributeType": 168,
+					"min": 1
+				}
+			],
+			"Boss": "Iqsior",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Fortified Loop",
+			"Key": "FORTIFIED_LOOP",
+			"ItemId": 131,
+			"Rarity": 2,
+			"SlotType": 2,
+			"Type": 12,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 6,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"Description": [{
+					"attributeType": 193,
+					"min": 15,
+					"max": 18
+				},
+				{
+					"attributeType": 48,
+					"min": 20,
+					"max": 25
+				},
+				{
+					"attributeType": 195,
+					"min": 5
+				}
+			],
+			"Boss": "Solaria",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Blessed Helm",
+			"Key": "BLESSED_HELM",
+			"ItemId": 132,
+			"Rarity": 2,
+			"SlotType": 1,
+			"Type": 6,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 6,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 2,
+					"min": 50,
+					"max": 58
+				},
+				{
+					"attributeType": 13,
+					"min": 40,
+					"max": 45
+				},
+				{
+					"attributeType": 10,
+					"min": 3
+				},
+				{
+					"attributeType": 21,
+					"min": 3
+				}
+			],
+			"Boss": "Sepitus",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Toxic Maker",
+			"Key": "TOXIC_MAKER",
+			"ItemId": 133,
+			"artifactVFXSpawnType": [1],
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 11,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 15,
+			"SellPrice": 0,
+			"DropRate": 0.1,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 128,
+					"min": 20,
+					"max": 25
+				},
+				{
+					"attributeType": 196,
+					"min": 5,
+					"max": 7
+				},
+				{
+					"attributeType": 209,
+					"min": 2
+				}
+			],
+			"Boss": "Skeleton King",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Jerkin of Faded Magic",
+			"Key": "JERKIN_OF_FADED_MAGIC",
+			"ItemId": 135,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 16,
+			"SellPrice": 0,
+			"DropRate": 0.1,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 18,
+					"max": 20
+				},
+				{
+					"attributeType": 45,
+					"min": 2,
+					"max": 3
+				},
+				{
+					"attributeType": 169,
+					"min": 1.5,
+					"max": 2.5
+				},
+				{
+					"attributeType": 170,
+					"min": 1.5,
+					"max": 2.5
+				},
+				{
+					"attributeType": 171,
+					"min": 1.5,
+					"max": 2.5
+				}
+			],
+			"Boss": "Sepitus",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Vile Greataxe",
+			"Key": "VILE_GREATAXE",
+			"ItemId": 136,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 18,
+			"SellPrice": 0,
+			"DropRate": 0.1,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 20,
+					"max": 30
+				},
+				{
+					"attributeType": 102,
+					"min": 60,
+					"max": 70
+				},
+				{
+					"attributeType": 117,
+					"min": 80,
+					"max": 90
+				}
+			],
+			"Boss": "Gump",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Shamanic Codex",
+			"Key": "SHAMANIC_CODEX",
+			"ItemId": 139,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 18,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 18,
+			"SellPrice": 0,
+			"DropRate": 0.1,
+			"possibleMutationAttributes": [53]
+		},
+		{
+			"ArtifactName": "Restored Legwraps",
+			"Key": "RESTORED_LEGWRAPS",
+			"ItemId": 140,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 18,
+			"SellPrice": 0,
+			"DropRate": 0.1,
+			"possibleMutationAttributes": [53]
+		},
+		{
+			"ArtifactName": "Cowl of Sacred Hope",
+			"Key": "COWL_OF_SACRED_HOPE",
+			"ItemId": 142,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 6,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 16,
+			"SellPrice": 0,
+			"DropRate": 0.1,
+			"possibleMutationAttributes": [53]
+		},
+		{
+			"ArtifactName": "Haunted Gauntlets",
+			"Key": "HAUNTED_GAUNTLETS",
+			"ItemId": 143,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 7,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 18,
+			"SellPrice": 0,
+			"DropRate": 0.1,
+			"possibleMutationAttributes": [53]
+		},
+		{
+			"ArtifactName": "Penetration",
+			"Key": "PENETRATION",
+			"ItemId": 144,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 18,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 16,
+			"SellPrice": 0,
+			"DropRate": 0.1,
+			"possibleMutationAttributes": [53]
+		},
+		{
+			"ArtifactName": "Stormbringer",
+			"Key": "STORMBRINGER",
+			"artifactVFXSpawnType": [0],
+			"ItemId": 145,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [0],
+			"HiddenItemLevel": 17,
+			"SellPrice": 0,
+			"DropRate": 0.1,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 98,
+					"min": 18,
+					"max": 20
+				},
+				{
+					"attributeType": 101,
+					"min": 19,
+					"max": 22
+				}
+			],
+			"Boss": "Solaria",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Fallen Flames",
+			"Key": "FALLEN_FLAMES",
+			"ItemId": 146,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"isChaotic": true,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 50,
+			"SellPrice": 0,
+			"DropRate": 0.19,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 40,
+					"max": 45
+				},
+				{
+					"attributeType": 2,
+					"min": 180,
+					"max": 195
+				},
+				{
+					"attributeType": 193,
+					"min": 50,
+					"max": 55
+				},
+				{
+					"attributeType": 109,
+					"min": 10
+				}
+			],
+			"Boss": "Cassandra",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Spell Song",
+			"Key": "SPELLSONG",
+			"artifactVFXSpawnType": [0],
+			"ItemId": 147,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 50,
+			"SellPrice": 0,
+			"DropRate": 0.12,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 50,
+					"max": 55
+				},
+				{
+					"attributeType": 2,
+					"min": 100,
+					"max": 115
+				},
+				{
+					"attributeType": 9,
+					"min": 3
+				},
+				{
+					"attributeType": 110,
+					"min": 2
+				},
+				{
+					"attributeType": 170,
+					"min": 3
+				}
+			],
+			"Boss": "Norrix",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Frozen Spirit",
+			"Key": "FROZEN_SPIRIT",
+			"artifactVFXSpawnType": [4],
+			"ItemId": 148,
+			"Rarity": 2,
+			"SlotType": 0,
+			"Type": 2,
+			"isChaotic": true,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 17,
+			"SellPrice": 0,
+			"DropRate": 0.19,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 60,
+					"max": 62
+				},
+				{
+					"attributeType": 145,
+					"min": 120,
+					"max": 128
+				},
+				{
+					"attributeType": 165,
+					"min": 5,
+					"max": 6
+				}
+			],
+			"Boss": "Norrix",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Lightning Aegis",
+			"Key": "LIGHTNING_AEGIS",
+			"ItemId": 149,
+			"Rarity": 2,
+			"SlotType": 1,
+			"Type": 4,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 17,
+			"SellPrice": 0,
+			"DropRate": 0.1,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 85,
+					"max": 95
+				},
+				{
+					"attributeType": 2,
+					"min": 6,
+					"max": 7
+				},
+				{
+					"attributeType": 200,
+					"min": 4
+				},
+				{
+					"attributeType": 170,
+					"min": 4
+				},
+				{
+					"attributeType": 171,
+					"min": 4
+				}
+			],
+			"Boss": "Tolmon",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Night's Kiss",
+			"Key": "NIGHTKISS",
+			"ItemId": 150,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"isChaotic": true,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 25,
+			"SellPrice": 0,
+			"DropRate": 0.19,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 128,
+					"min": 30,
+					"max": 35
+				},
+				{
+					"attributeType": 132,
+					"min": 20,
+					"max": 25
+				},
+				{
+					"attributeType": 26,
+					"min": 2,
+					"max": 3
+				}
+			],
+			"Boss": "Tolmon",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Lightning Fist",
+			"Key": "LIGHTNINGFIST",
+			"ItemId": 151,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 7,
+			"isChaotic": true,
+			"MutationPoolType": [0],
+			"HiddenItemLevel": 17,
+			"SellPrice": 0,
+			"DropRate": 0.19,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 101,
+					"min": 90,
+					"max": 95
+				},
+				{
+					"attributeType": 6,
+					"min": 140,
+					"max": 145
+				},
+				{
+					"attributeType": 1,
+					"min": -70
+				}
+			],
+			"Boss": "Tolmon",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Hell's Edge",
+			"Key": "HELLSEDGE",
+			"artifactVFXSpawnType": [1],
+			"ItemId": 152,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 0,
+			"isChaotic": true,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 17,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 113,
+					"min": 80,
+					"max": 82
+				},
+				{
+					"attributeType": 114,
+					"min": 280,
+					"max": 285
+				},
+				{
+					"attributeType": 93,
+					"min": 4,
+					"max": 5
+				}
+			],
+			"Boss": "Mirror",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Remorse",
+			"Key": "REMORSE",
+			"artifactVFXSpawnType": [4],
+			"ItemId": 153,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"isChaotic": true,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 17,
+			"procCooldown": 10,
+			"SellPrice": 0,
+			"DropRate": 0.19,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 85,
+					"max": 90
+				},
+				{
+					"attributeType": 45,
+					"min": 6,
+					"max": 7
+				},
+				{
+					"attributeType": 197,
+					"min": 25,
+					"max": 30
+				},
+				{
+					"attributeType": 44,
+					"min": -25
+				}
+			],
+			"Boss": "Mirror",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Insanity",
+			"Key": "INSANITY",
+			"ItemId": 154,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 18,
+			"isChaotic": true,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 17,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 45,
+					"min": 8,
+					"max": 9
+				},
+				{
+					"attributeType": 170,
+					"min": 2
+				},
+				{
+					"attributeType": 171,
+					"min": 2
+				},
+				{
+					"attributeType": 49,
+					"min": 70,
+					"max": 75
+				}
+			],
+			"Boss": "Mirror",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Reinforced Helm",
+			"Key": "REINFORCED_HELM",
+			"ItemId": 155,
+			"Rarity": 0,
+			"SlotType": 1,
+			"Type": 6,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 20,
+			"SellPrice": 0,
+			"DropRate": 0.6,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 250,
+					"max": 270
+				},
+				{
+					"attributeType": 13,
+					"min": 190,
+					"max": 215
+				}
+			],
+			"Boss": "Tolmon",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Reinforced Belt",
+			"Key": "REINFORCED_BELT",
+			"ItemId": 156,
+			"Rarity": 0,
+			"SlotType": 2,
+			"Type": 16,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 20,
+			"SellPrice": 0,
+			"DropRate": 0.6,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 193,
+					"min": 100,
+					"max": 120
+				},
+				{
+					"attributeType": 48,
+					"min": 100,
+					"max": 115
+				}
+			],
+			"Boss": "Tolmon",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Reinforced Sword",
+			"Key": "REINFORCED_SWORD",
+			"ItemId": 157,
+			"Rarity": 1,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [0],
+			"HiddenItemLevel": 20,
+			"SellPrice": 0,
+			"DropRate": 0.6,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 2,
+			"maxEleDmgMod": 2,
+			"Description": [{
+					"attributeType": 98,
+					"min": 150,
+					"max": 160
+				},
+				{
+					"attributeType": 143,
+					"min": 130,
+					"max": 150
+				}
+			],
+			"Boss": "Tolmon",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Reinforced Shield",
+			"Key": "REINFORCED_SHIELD",
+			"ItemId": 158,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 4,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 24,
+			"SellPrice": 0,
+			"DropRate": 0.6,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 190,
+					"max": 205
+				},
+				{
+					"attributeType": 193,
+					"min": 100,
+					"max": 120
+				},
+				{
+					"attributeType": 108,
+					"min": 5,
+					"max": 6
+				}
+			],
+			"Boss": "Mirror",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Reinforced Arrow",
+			"Key": "REINFORCED_ARROW",
+			"ItemId": 159,
+			"Rarity": 0,
+			"SlotType": 0,
+			"Type": 11,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 22,
+			"SellPrice": 0,
+			"DropRate": 0.6,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 2,
+			"maxEleDmgMod": 2,
+			"Description": [{
+					"attributeType": 128,
+					"min": 25,
+					"max": 30
+				},
+				{
+					"attributeType": 26,
+					"min": 3,
+					"max": 5
+				},
+				{
+					"attributeType": 32,
+					"min": 5,
+					"max": 6
+				}
+			],
+			"Boss": "Mirror",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Reinforced Chestplate",
+			"Key": "REINFORCED_CHESTPLATE",
+			"ItemId": 160,
+			"Rarity": 0,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 22,
+			"SellPrice": 0,
+			"DropRate": 0.6,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 193,
+					"min": 200,
+					"max": 250
+				},
+				{
+					"attributeType": 45,
+					"min": 6,
+					"max": 7
+				},
+				{
+					"attributeType": 168,
+					"min": 3,
+					"max": 4
+				}
+			],
+			"Boss": "Mirror",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Elemental Greatstaff",
+			"Key": "ELEMENTAL_GREATSTAFF",
+			"ItemId": 161,
+			"Rarity": 2,
+			"SlotType": 0,
+			"Type": 14,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 23,
+			"SellPrice": 0,
+			"DropRate": 0.20,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 198,
+					"min": 1,
+					"max": 2
+				},
+				{
+					"attributeType": 48,
+					"min": 60,
+					"max": 70
+				}
+			],
+			"Boss": "Cassandra",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Voodoo Totem",
+			"Key": "VOODOO_TOTEM",
+			"ItemId": 162,
+			"Rarity": 2,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 23,
+			"SellPrice": 0,
+			"DropRate": 0.20,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 45,
+					"min": 4,
+					"max": 5
+				},
+				{
+					"attributeType": 48,
+					"min": 50,
+					"max": 55
+				}
+			],
+			"Boss": "Tolmon",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Storm Walker",
+			"Key": "STORM_WALKER",
+			"ItemId": 163,
+			"Rarity": 2,
+			"SlotType": 1,
+			"Type": 17,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 23,
+			"SellPrice": 0,
+			"DropRate": 0.20,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 48,
+					"min": 50,
+					"max": 55
+				},
+				{
+					"attributeType": 171,
+					"min": 3,
+					"max": 4
+				},
+				{
+					"attributeType": 170,
+					"min": 3,
+					"max": 4
+				}
+			],
+			"Boss": "Tolmon",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Fire Emblem",
+			"Key": "FIRE_EMBLEM",
+			"artifactVFXSpawnType": [3],
+			"ItemId": 164,
+			"Rarity": 2,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 24,
+			"SellPrice": 0,
+			"DropRate": 0.20,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 80,
+					"max": 85
+				},
+				{
+					"attributeType": 144,
+					"min": 120,
+					"max": 130
+				},
+				{
+					"attributeType": 37,
+					"min": 5,
+					"max": 6
+				}
+			],
+			"Boss": "Mirror",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Triune Stone",
+			"Key": "TRIUNE_STONE",
+			"ItemId": 165,
+			"Rarity": 2,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 25,
+			"SellPrice": 0,
+			"DropRate": 0.20,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 40,
+					"max": 45
+				},
+				{
+					"attributeType": 193,
+					"min": 50,
+					"max": 60
+				}
+			],
+			"Boss": "Mirror",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Enchanted Glove",
+			"Key": "ENCHANTED_GLOVE",
+			"ItemId": 166,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 7,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 41,
+			"SellPrice": 0,
+			"DropRate": 0.4,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 193,
+					"min": 180,
+					"max": 200
+				},
+				{
+					"attributeType": 48,
+					"min": 110,
+					"max": 120
+				},
+				{
+					"attributeType": 49,
+					"min": 7,
+					"max": 9
+				}
+			],
+			"Boss": "Grunzar",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Enchanted Axe",
+			"Key": "ENCHANTED_AXE",
+			"ItemId": 167,
+			"Rarity": 1,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 43,
+			"SellPrice": 0,
+			"DropRate": 0.4,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 2,
+			"maxEleDmgMod": 2,
+			"Description": [{
+					"attributeType": 113,
+					"min": 280,
+					"max": 300
+				},
+				{
+					"attributeType": 158,
+					"min": 10,
+					"max": 12
+				}
+			],
+			"Boss": "Izki",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Enchanted Shield",
+			"Key": "ENCHANTED_SHIELD",
+			"ItemId": 167,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 4,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 43,
+			"SellPrice": 0,
+			"DropRate": 0.4,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 500,
+					"max": 550
+				},
+				{
+					"attributeType": 108,
+					"min": 5
+				},
+				{
+					"attributeType": 48,
+					"min": 100,
+					"max": 120
+				}
+			],
+			"Boss": "Sargaris",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Enchanted Chestplate",
+			"Key": "ENCHANTED_CHESTPLATE",
+			"ItemId": 167,
+			"Rarity": 1,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 44,
+			"SellPrice": 0,
+			"DropRate": 0.4,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 193,
+					"min": 300,
+					"max": 350
+				},
+				{
+					"attributeType": 45,
+					"min": 6,
+					"max": 7
+				},
+				{
+					"attributeType": 168,
+					"min": 4
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Normal"
+		},
+		{
+			"ArtifactName": "Inner Flame",
+			"Key": "INNER_FLAME",
+			"ItemId": 168,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 4,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 44,
+			"SellPrice": 0,
+			"DropRate": 0.15,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 193,
+					"min": 6,
+					"max": 7
+				},
+				{
+					"attributeType": 48,
+					"min": 120,
+					"max": 140
+				},
+				{
+					"attributeType": 198,
+					"min": 10
+				}
+			],
+			"Boss": "Grunzar",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Star's Recurve",
+			"Key": "STARS_RECURVE",
+			"ItemId": 169,
+			"Rarity": 2,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 45,
+			"SellPrice": 0,
+			"DropRate": 0.24,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 130,
+					"min": 50,
+					"max": 60
+				},
+				{
+					"attributeType": 165,
+					"min": 8,
+					"max": 10
+				},
+				{
+					"attributeType": 26,
+					"min": 4,
+					"max": 6
+				}
+			],
+			"Boss": "Izki",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "The Butcher",
+			"Key": "THE_BUTCHER",
+			"ItemId": 170,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 47,
+			"SellPrice": 0,
+			"DropRate": 0.15,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 114,
+					"min": 250,
+					"max": 260
+				},
+				{
+					"attributeType": 115,
+					"min": 180,
+					"max": 190
+				},
+				{
+					"attributeType": 16,
+					"min": 30,
+					"max": 33
+				}
+			],
+			"Boss": "Sargaris",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "The Purifier",
+			"Key": "THE_PURIFIER",
+			"artifactVFXSpawnType": [0],
+			"ItemId": 171,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 47,
+			"SellPrice": 0,
+			"DropRate": 0.15,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 101,
+					"min": 380,
+					"max": 400
+				},
+				{
+					"attributeType": 5,
+					"min": 30,
+					"max": 50
+				},
+				{
+					"attributeType": 45,
+					"min": 4,
+					"max": 5
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Meditation",
+			"Key": "MEDITATION",
+			"artifactVFXSpawnType": [4],
+			"ItemId": 172,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 19,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 47,
+			"SellPrice": 0,
+			"DropRate": 0.15,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 45,
+					"min": 5,
+					"max": 6
+				},
+				{
+					"attributeType": 48,
+					"min": 200,
+					"max": 220
+				},
+				{
+					"attributeType": 66,
+					"min": 20,
+					"max": 30
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Anarchy",
+			"Key": "ANARCHY",
+			"artifactVFXSpawnType": [3],
+			"ItemId": 173,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 47,
+			"SellPrice": 0,
+			"DropRate": 0.15,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 2,
+			"maxEleDmgMod": 2,
+			"Description": [{
+					"attributeType": 143,
+					"min": 150,
+					"max": 166
+				},
+				{
+					"attributeType": 147,
+					"min": 88,
+					"max": 96
+				},
+				{
+					"attributeType": 48,
+					"min": 160,
+					"max": 180
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Brutal"
+		},
+		{
+			"ArtifactName": "Dark Intent",
+			"Key": "DARK_INTENT",
+			"ItemId": 174,
+			"artifactVFXSpawnType": [4],
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 49,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"isChaotic": true,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+					"attributeType": 98,
+					"min": 305,
+					"max": 335
+				},
+				{
+					"attributeType": 102,
+					"min": 105,
+					"max": 135
+				},
+				{
+					"attributeType": 48,
+					"min": 100,
+					"max": 150
+				}
+			],
+			"Boss": "Grunzar",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Penance",
+			"Key": "PENANCE",
+			"artifactVFXSpawnType": [3],
+			"ItemId": 175,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 51,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"isChaotic": true,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+					"attributeType": 143,
+					"min": 405,
+					"max": 435
+				},
+				{
+					"attributeType": 48,
+					"min": 300,
+					"max": 350
+				},
+				{
+					"attributeType": 65,
+					"min": 20,
+					"max": 26
+				}
+			],
+			"Boss": "Grunzar",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Mana Eater",
+			"Key": "MANA_EATER",
+			"artifactVFXSpawnType": [4],
+			"ItemId": 176,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [5, 7],
+			"HiddenItemLevel": 48,
+			"SellPrice": 0,
+			"DropRate": 0.15,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 193,
+					"min": 300,
+					"max": 310
+				},
+				{
+					"attributeType": 50,
+					"min": 330,
+					"max": 380
+				},
+				{
+					"attributeType": 170,
+					"min": 5
+				},
+				{
+					"attributeType": 169,
+					"min": 5
+				}
+			],
+			"Boss": "Izki",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Soul of the Thunder",
+			"Key": "SOUL_THUNDER",
+			"ItemId": 177,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 52,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"isChaotic": true,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+				"attributeType": 48,
+				"min": 55,
+				"max": 68
+			}],
+			"Boss": "Izki",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Equilibrium",
+			"Key": "EQUILIBRIUM",
+			"ItemId": 177,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 52,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"isChaotic": true,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 45,
+					"min": 5,
+					"max": 7
+				},
+				{
+					"attributeType": 198,
+					"min": 2
+				}
+			],
+			"Boss": "Sargaris",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "The Elementalist",
+			"Key": "ELEMENTALIST",
+			"ItemId": 178,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 53,
+			"SellPrice": 0,
+			"DropRate": 0.03,
+			"isUltraRare": true,
+			"isChaotic": true,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 86,
+					"max": 95
+				},
+				{
+					"attributeType": 201,
+					"min": 5,
+					"max": 6
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Soul Forge",
+			"Key": "SOUL_FORGE",
+			"ItemId": 179,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"isChaotic": true,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 55,
+			"SellPrice": 0,
+			"DropRate": 0.2,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 129,
+					"min": 95,
+					"max": 119
+				},
+				{
+					"attributeType": 164,
+					"min": 6,
+					"max": 7
+				},
+				{
+					"attributeType": 2,
+					"min": 300,
+					"max": 350
+				},
+				{
+					"attributeType": 198,
+					"min": 4
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Intervention",
+			"Key": "INTERVENTION",
+			"ItemId": 180,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 52,
+			"SellPrice": 0,
+			"DropRate": 0.16,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 255,
+					"max": 290
+				},
+				{
+					"attributeType": 45,
+					"min": -6,
+					"max": -8
+				},
+				{
+					"attributeType": 198,
+					"min": 3
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Reach of the Sun",
+			"Key": "SUN_REACH",
+			"ItemId": 181,
+			"Rarity": 2,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [7, 6],
+			"HiddenItemLevel": 56,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.21,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 198,
+					"min": 5
+				},
+				{
+					"attributeType": 199,
+					"min": 80,
+					"max": 90
+				},
+				{
+					"attributeType": 195,
+					"min": 26,
+					"max": 31
+				},
+				{
+					"attributeType": 45,
+					"min": -20
+				},
+				{
+					"attributeType": 49,
+					"min": -25
+				}
+			],
+			"Boss": "Droto",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Serpent's Blood",
+			"Key": "SERPANT_BLOOD",
+			"ItemId": 182,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 59,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 50,
+					"min": 120,
+					"max": 150
+				},
+				{
+					"attributeType": 48,
+					"min": 90,
+					"max": 135
+				},
+				{
+					"attributeType": 94,
+					"min": 22,
+					"max": 28
+				}
+			],
+			"Boss": "Atiel",
+			"BossDifficulty": "Insane"
+		},
+		{
+			"ArtifactName": "Zombification",
+			"Key": "ZOMBIFICATION",
+			"ItemId": 187,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 4,
+			"MutationPoolType": [1],
+			"HiddenItemLevel": 65,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 2,
+					"min": 3000,
+					"max": 3110
+				},
+				{
+					"attributeType": 193,
+					"min": 3150,
+					"max": 3350
+				},
+				{
+					"attributeType": 44,
+					"min": 15,
+					"max": 17
+				},
+				{
+					"attributeType": 172,
+					"min": 10,
+					"max": 11
+				},
+				{
+					"attributeType": 200,
+					"min": 5
+				}
+			],
+			"Boss": "Arney & Brney",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Venom",
+			"Key": "VENOM",
+			"ItemId": 188,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 18,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 65,
+			"isChaotic": true,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 102,
+					"min": 450,
+					"max": 490
+				},
+				{
+					"attributeType": 132,
+					"min": 290,
+					"max": 310
+				},
+				{
+					"attributeType": 117,
+					"min": 750,
+					"max": 950
+				},
+				{
+					"attributeType": 147,
+					"min": 510,
+					"max": 550
+				}
+			],
+			"Boss": "Arney & Brney",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Scales of the Deep",
+			"Key": "SCALES_OF_THE_DEEP",
+			"ItemId": 189,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 19,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 62,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 193,
+					"min": 450,
+					"max": 510
+				},
+				{
+					"attributeType": 160,
+					"min": 10,
+					"max": 13
+				}
+			],
+			"Boss": "Arney & Brney",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Skeleton Sword",
+			"Key": "Skeleton KingELETON_SWORD_DIVINE",
+			"ItemId": 191,
+			"artifactVFXSpawnType": [1],
+			"isDivine": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [1, 2],
+			"HiddenItemLevel": 62,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+				"attributeType": 113,
+				"min": 1400,
+				"max": 1550
+			}],
+			"Boss": "Arney & Brney",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Shooting Star",
+			"Key": "SHOOTING_STAR_DIVINE",
+			"ItemId": 192,
+			"isDivine": true,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 62,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"minEleDmgMod": 1,
+			"maxEleDmgMod": 1,
+			"Description": [{
+					"attributeType": 128,
+					"min": 315,
+					"max": 330
+				},
+				{
+					"attributeType": 23,
+					"min": 6,
+					"max": 7
+				},
+				{
+					"attributeType": 24,
+					"min": 550,
+					"max": 610
+				},
+				{
+					"attributeType": 54,
+					"min": 1
+				}
+			],
+			"Boss": "Arney & Brney",
+			"BossDifficulty": "Immortal"
+		},
+
+
+		{
+			"ArtifactName": "Bone Chill",
+			"Key": "BONE_CHILL",
+			"ItemId": 195,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 2,
+			"MutationPoolType": [6],
+			"HiddenItemLevel": 63,
+			"SellPrice": 0,
+			"DropRate": 0.12,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 300,
+					"max": 350
+				},
+				{
+					"attributeType": 145,
+					"min": 350,
+					"max": 443
+				},
+				{
+					"attributeType": 165,
+					"min": 7,
+					"max": 9
+				}
+			],
+			"Boss": "Mump",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Twister",
+			"Key": "TWISTER",
+			"artifactVFXSpawnType": [2],
+			"ItemId": 196,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 63,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 130,
+					"min": 400,
+					"max": 410
+				},
+				{
+					"attributeType": 26,
+					"min": 4,
+					"max": 5
+				}
+			],
+			"Boss": "Mump",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Infused Mantle",
+			"Key": "INFUSED_MANTLE",
+			"ItemId": 193,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 62,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 2,
+					"min": 1000,
+					"max": 1110
+				},
+				{
+					"attributeType": 193,
+					"min": 400,
+					"max": 420
+				}
+			],
+			"Boss": "Mump",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Stone of Madness",
+			"Key": "STONE_OF_MADNESS",
+			"ItemId": 194,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 62,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 202,
+					"min": 30,
+					"max": 25
+				},
+				{
+					"attributeType": 203,
+					"min": 20,
+					"max": 15
+				},
+				{
+					"attributeType": 204,
+					"min": 7,
+					"max": 6
+				},
+				{
+					"attributeType": 205,
+					"min": 5,
+					"max": 4
+				},
+				{
+					"attributeType": 206,
+					"min": 13,
+					"max": 11
+				}
+			],
+			"Boss": "Mump",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Stormbringer",
+			"Key": "STORMBRINGER_DIVINE",
+			"ItemId": 197,
+			"artifactVFXSpawnType": [0],
+			"isChaotic": true,
+			"isDivine": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [0],
+			"HiddenItemLevel": 62,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 98,
+					"min": 150,
+					"max": 300
+				},
+				{
+					"attributeType": 101,
+					"min": 880,
+					"max": 940
+				}
+			],
+			"Boss": "Mump",
+			"BossDifficulty": "Immortal"
+		},
+
+		{
+			"ArtifactName": "Hell's Edge",
+			"Key": "HELLSEDGE_DIVINE",
+			"artifactVFXSpawnType": [1],
+			"isDivine": true,
+			"ItemId": 198,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 65,
+			"SellPrice": 0,
+			"DropRate": 0.12,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 113,
+					"min": 500,
+					"max": 560
+				},
+				{
+					"attributeType": 83,
+					"min": 1180,
+					"max": 1285
+				},
+				{
+					"attributeType": 93,
+					"min": 7
+				}
+			],
+			"Boss": "Zix",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Alteration of Minds",
+			"Key": "ALTERATION_OF_MINDS",
+			"ItemId": 199,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [7],
+			"HiddenItemLevel": 65,
+			"SellPrice": 0,
+			"DropRate": 0.12,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 48,
+					"min": 180,
+					"max": 185
+				},
+				{
+					"attributeType": 36,
+					"min": 80,
+					"max": 84
+				},
+				{
+					"attributeType": 45,
+					"min": -30
+				},
+				{
+					"attributeType": 168,
+					"min": -5
+				}
+			],
+			"Boss": "Zix",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Twisted Bargain",
+			"Key": "TWISTED_BARGAIN",
+			"artifactVFXSpawnType": [4],
+			"ItemId": 200,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 14,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 65,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 147,
+					"min": 1930,
+					"max": 2070
+				},
+				{
+					"attributeType": 50,
+					"min": 180,
+					"max": 190
+				},
+				{
+					"attributeType": 48,
+					"min": 410,
+					"max": 425
+				},
+				{
+					"attributeType": 94,
+					"min": 22,
+					"max": 28
+				}
+			],
+			"Boss": "Zix",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "The Sunwalker",
+			"Key": "THE_SUNWALKER",
+			"ItemId": 201,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 6,
+			"MutationPoolType": [1, 3],
+			"HiddenItemLevel": 65,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 2,
+					"min": 1230,
+					"max": 1370
+				},
+				{
+					"attributeType": 13,
+					"min": 1140,
+					"max": 1180
+				},
+				{
+					"attributeType": 48,
+					"min": 210,
+					"max": 225
+				},
+				{
+					"attributeType": 169,
+					"min": 15
+				},
+				{
+					"attributeType": 171,
+					"min": 15
+				}
+			],
+			"Boss": "Zix",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Extra Offering",
+			"Key": "EXTRA_OFFERING",
+			"ItemId": 202,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 65,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+				"attributeType": 193,
+				"min": 380,
+				"max": 450
+			}],
+			"Boss": "Clara",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Supernova",
+			"Key": "SUPERNOVA",
+			"ItemId": 203,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 65,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 48,
+					"min": 380,
+					"max": 425
+				},
+				{
+					"attributeType": 201,
+					"min": 14,
+					"max": 15
+				},
+				{
+					"attributeType": 198,
+					"min": 11,
+					"max": 12
+				},
+				{
+					"attributeType": 208,
+					"min": 20,
+					"max": 22
+				}
+			],
+			"Boss": "Zix",
+			"BossDifficulty": "Immortal"
+		},
+
+
+		{
+			"ArtifactName": "Anguish",
+			"Key": "ANGUISH_DIVINE",
+			"artifactVFXSpawnType": [1],
+			"ItemId": 204,
+			"isDivine": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 65,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [11, 12, 13, 14, 15, 16, 17, 53, 58],
+			"Description": [{
+					"attributeType": 114,
+					"min": 1100,
+					"max": 1200
+				},
+				{
+					"attributeType": 117,
+					"min": 580,
+					"max": 590
+				},
+				{
+					"attributeType": 164,
+					"min": 5,
+					"max": 7
+				},
+				{
+					"attributeType": 167,
+					"min": 5,
+					"max": 7
+				}
+			],
+			"Boss": "Gorl",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Frozen Hell",
+			"Key": "FROZEN_HELL",
+			"ItemId": 205,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 7,
+			"MutationPoolType": [6, 8],
+			"HiddenItemLevel": 65,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 2,
+			"Description": [{
+					"attributeType": 2,
+					"min": 320,
+					"max": 340
+				},
+				{
+					"attributeType": 193,
+					"min": 470,
+					"max": 510
+				},
+				{
+					"attributeType": 160,
+					"min": 10,
+					"max": 11
+				},
+				{
+					"attributeType": 170,
+					"min": 13,
+					"max": 14
+				}
+			],
+			"Boss": "Gorl",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Rampage",
+			"Key": "RAMPAGE_DIVINE",
+			"ItemId": 206,
+			"isDivine": true,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 0,
+			"MutationPoolType": [2],
+			"HiddenItemLevel": 66,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [ 53, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+			"Description": [{
+					"attributeType": 113,
+					"min": 1890,
+					"max": 2030
+				},
+				{
+					"attributeType": 12,
+					"min": 7,
+					"max": 8
+				},
+				{
+					"attributeType": 93,
+					"min": 30,
+					"max": 32
+				}
+			],
+			"Boss": "Gorl",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Pain Duplication",
+			"Key": "REVENGE",
+			"ItemId": 207,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 19,
+			"MutationPoolType": [7],
+			"HiddenItemLevel": 66,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 35,
+					"min": 1120,
+					"max": 1400
+				},
+				{
+					"attributeType": 193,
+					"min": 430,
+					"max": 520
+				}
+			],
+			"Boss": "Gorl",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Starlight",
+			"Key": "STARLIGHT",
+			"ItemId": 208,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 66,
+			"SellPrice": 0,
+			"DropRate": 0.11,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 37,
+					"min": 7,
+					"max": 8
+				},
+				{
+					"attributeType": 38,
+					"min": 35,
+					"max": 37
+				},
+				{
+					"attributeType": 165,
+					"min": 9,
+					"max": 11
+				}
+			],
+			"Boss": "Gorl",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Night's Kiss",
+			"Key": "NIGHTKISS_DIVINE",
+			"ItemId": 209,
+			"isDivine": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [4],
+			"HiddenItemLevel": 25,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53],
+			"Description": [{
+					"attributeType": 128,
+					"min": 300,
+					"max": 355
+				},
+				{
+					"attributeType": 132,
+					"min": 110,
+					"max": 125
+				},
+				{
+					"attributeType": 26,
+					"min": 3,
+					"max": 4
+				}
+			],
+			"Boss": "Clara",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Prolonged Pain",
+			"Key": "PROLONGED_PAIN",
+			"ItemId": 210,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 5,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 2,
+					"min": 1120,
+					"max": 1400
+				},
+				{
+					"attributeType": 193,
+					"min": 610,
+					"max": 750
+				},
+				{
+					"attributeType": 196,
+					"min": 80,
+					"max": 90
+				},
+				{
+					"attributeType": 209,
+					"min": 4
+				},
+				{
+					"attributeType": 158,
+					"min": -10
+				}
+			],
+			"Boss": "Clara",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Zealous Crusade",
+			"Key": "ZEALOUS_CRUSADE",
+			"ItemId": 211,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 1,
+			"MutationPoolType": [7],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53]
+		},
+		{
+			"ArtifactName": "Sprinter of the Forest",
+			"Key": "SPRINTER_OF_THE_FOREST",
+			"ItemId": 212,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 17,
+			"MutationPoolType": [9],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53, 44, 45, 46, 47, 48, 49, 50, 51],
+			"Description": [{
+					"attributeType": 193,
+					"min": 425,
+					"max": 530
+				},
+				{
+					"attributeType": 48,
+					"min": 240,
+					"max": 275
+				},
+				{
+					"attributeType": 198,
+					"min": 8,
+					"max": 9
+				},
+				{
+					"attributeType": 172,
+					"min": 10,
+					"max": 11
+				},
+				{
+					"attributeType": 207,
+					"min": 4
+				}
+			],
+			"Boss": "Beezt",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Tempest Fury",
+			"Key": "TEMPEST_FURY",
+			"ItemId": 213,
+			"isUltraRare": true,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 0,
+			"Type": 3,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.05,
+			"difficulty": 2,
+			"possibleMutationAttributes": [
+				53
+			],
+			"Description": [{
+					"attributeType": 130,
+					"min": 220,
+					"max": 230
+				},
+				{
+					"attributeType": 114,
+					"min": 895,
+					"max": 1070
+				},
+				{
+					"attributeType": 61,
+					"min": 5,
+					"max": 6
+				},
+				{
+					"attributeType": 64,
+					"min": 10,
+					"max": 12
+				},
+				{
+					"attributeType": 63,
+					"min": 10,
+					"max": 12
+				}
+			],
+			"Boss": "Clara",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Primordial Steel",
+			"Key": "PRIMORDIAL_STEEL",
+			"ItemId": 214,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 193,
+					"min": 680,
+					"max": 750
+				},
+				{
+					"attributeType": 158,
+					"min": 23,
+					"max": 30
+				},
+				{
+					"attributeType": 168,
+					"min": 6
+				}
+			],
+			"Boss": "Beezt",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Impure Globe",
+			"Key": "INPURE_GLOBE",
+			"ItemId": 215,
+			"isChaotic": true,
+			"Rarity": 3,
+			"SlotType": 2,
+			"Type": 8,
+			"MutationPoolType": [8, 9],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 1,
+			"maxEleResistMod": 1,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 193,
+					"min": 380,
+					"max": 400
+				},
+				{
+					"attributeType": 48,
+					"min": 260,
+					"max": 280
+				},
+				{
+					"attributeType": 161,
+					"min": 7,
+					"max": 9
+				},
+				{
+					"attributeType": 195,
+					"min": -20
+				}
+			],
+			"Boss": "Beezt",
+			"BossDifficulty": "Immortal"
+		},
+		{
+			"ArtifactName": "Tolmon's Cruelty",
+			"Key": "TOLMON_CRUELTY_DIVINE",
+			"ItemId": 216,
+			"isDivine": true,
+			"Rarity": 3,
+			"SlotType": 1,
+			"Type": 7,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 67,
+			"SellPrice": 0,
+			"DropRate": 0.10,
+			"difficulty": 2,
+			"possibleMutationAttributes": [53],
+			"minEleResistMod": 2,
+			"maxEleResistMod": 2,
+			"eleResistTier": 3,
+			"Description": [{
+					"attributeType": 193,
+					"min": 200,
+					"max": 250
+				},
+				{
+					"attributeType": 46,
+					"min": 4
+				},
+				{
+					"attributeType": 5,
+					"min": 20,
+					"max": 26
+				},
+				{
+					"attributeType": 16,
+					"min": 25,
+					"max": 30
+				},
+				{
+					"attributeType": 27,
+					"min": 12,
+					"max": 17
+				},
+				{
+					"attributeType": 38,
+					"min": 18,
+					"max": 22
+				}
+			],
+			"Boss": "Beezt",
+			"BossDifficulty": "Immortal"
+		},
+
+
+
+
+
+
+
+
+		{
+			"ArtifactName": "Crypt Scroll",
+			"Key": "S_CRYPT",
+			"ItemId": 183,
+			"isEquippable": false,
+			"isMutateable": true,
+			"isAugmentable": false,
+			"Rarity": 2,
+			"SlotType": 4,
+			"Type": 20,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 59,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"possibleMutationAttributes": []
+		},
+		{
+			"ArtifactName": "Warehouse Scroll",
+			"Key": "S_WAREHOUSE",
+			"ItemId": 184,
+			"isEquippable": false,
+			"isMutateable": true,
+			"isAugmentable": false,
+			"Rarity": 2,
+			"SlotType": 4,
+			"Type": 20,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 59,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"possibleMutationAttributes": []
+		},
+		{
+			"ArtifactName": "Fireland Scroll",
+			"Key": "S_FIRELAND",
+			"ItemId": 185,
+			"isEquippable": false,
+			"isMutateable": true,
+			"isAugmentable": false,
+			"Rarity": 2,
+			"SlotType": 4,
+			"Type": 20,
+			"MutationPoolType": [8],
+			"HiddenItemLevel": 59,
+			"SellPrice": 0,
+			"DropRate": 0.18,
+			"possibleMutationAttributes": []
+		}
+
+
+
+	]
+}
